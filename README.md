@@ -41,7 +41,7 @@ Structure with Digital Media Assets.
 * Assign Permissions to roles
 * Manage Permissions
 * Add Users to OU
-* Manage Users
+* Manage Users 
 
 1. Add Asset Module
 
