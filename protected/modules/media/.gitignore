@@ -1,0 +1,27 @@
+# generic files to ignore
+# backup files (*~) and vim swap file (.swp), MacOS dir file (.DS_Store)
+*~
+*.lock
+*.DS_Store
+*.swp
+*.swo
+*.out
+moveItem.txt
+protected/config/db.ini
+protected/config/main-local.php
+protected/config/console-local.php
+protected/data/users/*
+lib/PEAR*
+protected/runtime/*
+*.php.merged
+# Directories
+files/*/
+runtime/gii-*
+runtime/CSS/
+runtime/HTML/
+runtime/URI/
+protected/extensions/less/lib/lessphp/test/
+# Dont't ignore:
+!.yii
+!.gitignore
+!.gitkeep

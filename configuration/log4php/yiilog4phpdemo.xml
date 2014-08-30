@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<log4php:configuration xmlns:log4php="http://logging.apache.org/log4php/" threshold="all">
+		<!-- ????appender -->
+		<appender name="default" class="LoggerAppenderRollingFile">	
+			<layout class="LoggerLayoutPattern" />			
+			<param name="file" value="C:\xampp\htdocs\final\logs\accessLog.log" />	            
+			<param name="append" value="true" />                    
+			<param name="maxFileSize" value="10MB" />				
+			<param name="maxBackupIndex" value="10" />				
+		</appender>	
+		<!-- ??????appender??,??????????? -->		 
+		<appender name="user1" class="LoggerAppenderRollingFile">	<!-- ??name -->	
+			<layout class="LoggerLayoutPattern" >
+				
+				<param name="conversionPattern" value="%date [%logger] %message%newline"/>
+			</layout>			
+			<param name="file" value="C:\xampp\htdocs\final\logs\systemLog.log" />	            <!-- ??????? -->
+			<param name="append" value="true" />                    <!-- ?????????? -->
+			<param name="maxFileSize" value="100MB" />				<!-- ?????? -->
+			<param name="maxBackupIndex" value="10" />				<!-- ????????? -->
+		</appender>		
+	
+		<logger name="systemLog">
+			<level value="info" />
+			<appender_ref ref="user1" />
+		</logger>
+		<logger name="accessLog">
+			<level value="info" />
+			<appender_ref ref="default" />
+		</logger>	
+	</log4php:configuration>

@@ -1,0 +1,8 @@
+4-6-2014
+
+the many to many done ; for tags ; 
+bug : jstree not working
+      only for create department
+	  
+reason : the engine given was MyISAM
+         the present engine is InnoDB

@@ -1,0 +1,658 @@
+Date			Time					  uid	user	table 	action rowid
+2014-06-05T05:12:20+02:00 INFO  accessLog 48	vishnu	Users	Update	90
+2014-06-05T05:27:02+02:00 INFO  accessLog 48	vishnu	Users	create	98
+2014-06-05T05:28:41+02:00 INFO  accessLog 48	vishnu	Users	create	99
+2014-06-05T05:28:42+02:00 INFO  accessLog 48	vishnu	Users	create	100
+2014-06-05T07:40:42+02:00 INFO  accessLog 70	abc1	Users	create	71
+2014-06-05T07:40:43+02:00 INFO  accessLog 70	abc1	Users	create	72
+2014-06-05T10:35:25+02:00 INFO  accessLog 70	abc1	Users	create	75
+2014-06-05T10:35:26+02:00 INFO  accessLog 70	abc1	Users	create	76
+2014-06-05T10:36:50+02:00 INFO  accessLog 70	abc1	Users	create	77
+2014-06-05T10:37:42+02:00 INFO  accessLog 70	abc1	Users	create	78
+2014-06-05T10:37:42+02:00 INFO  accessLog 70	abc1	Users	create	79
+2014-06-05T10:50:57+02:00 INFO  accessLog 70	abc1	Users	create	80
+2014-06-05T10:51:22+02:00 INFO  accessLog 70	abc1	Users	create	81
+2014-06-05T11:07:05+02:00 INFO  accessLog 70	abc1	Users	Update	81
+2014-06-05T11:55:12+02:00 INFO  accessLog 70	abc1	Users	Update	81
+2014-06-05T11:55:33+02:00 INFO  accessLog 70	abc1	Users	Update	81
+2014-06-05T12:08:04+02:00 INFO  accessLog 70	abc1	Users	Update	81
+2014-06-05T12:09:02+02:00 INFO  accessLog 70	abc1	Users	Update	81
+2014-06-05T12:11:36+02:00 INFO  accessLog 70	abc1	Users	Update	81
+2014-06-05T12:12:41+02:00 INFO  accessLog 70	abc1	Users	Update	81
+2014-06-05T12:13:49+02:00 INFO  accessLog 70	abc1	Users	Update	81
+2014-06-05T12:14:31+02:00 INFO  accessLog 70	abc1	Users	Update	81
+2014-06-05T12:14:43+02:00 INFO  accessLog 70	abc1	Users	Update	81
+2014-06-05T12:15:38+02:00 INFO  accessLog 70	abc1	Users	Update	81
+2014-06-06T07:00:01+02:00 INFO  accessLog name  vishnu123
+2014-06-06T07:00:01+02:00 INFO  accessLog email vishnu@gmail.com 
+2014-06-06T07:00:01+02:00 INFO  accessLog saEZ6MlWYV9nQ 
+2014-06-06T07:00:01+02:00 INFO  accessLog status 1 
+2014-06-06T07:00:01+02:00 INFO  accessLog 70	abc1	Users	create	88
+2014-06-06T07:00:02+02:00 INFO  accessLog name  vishnu123
+2014-06-06T07:00:02+02:00 INFO  accessLog email vishnu@gmail.com 
+2014-06-06T07:00:02+02:00 INFO  accessLog saEZ6MlWYV9nQ 
+2014-06-06T07:00:02+02:00 INFO  accessLog status 1 
+2014-06-06T07:00:02+02:00 INFO  accessLog 70	abc1	Users	create	89
+2014-06-06T07:03:26+02:00 INFO  accessLog name  vishnuABC
+2014-06-06T07:03:26+02:00 INFO  accessLog email asd@gmail.com 
+2014-06-06T07:03:26+02:00 INFO  accessLog saFLGt/QKS6yw 
+2014-06-06T07:03:26+02:00 INFO  accessLog 70	abc1	Users	create	90
+2014-06-06T07:03:41+02:00 INFO  accessLog name  vishnuABC
+2014-06-06T07:03:41+02:00 INFO  accessLog email asd@gmail.com 
+2014-06-06T07:03:41+02:00 INFO  accessLog saEZ6MlWYV9nQ 
+2014-06-06T07:03:41+02:00 INFO  accessLog 70	abc1	Users	create	91
+2014-06-06T07:03:42+02:00 INFO  accessLog name  vishnuABC
+2014-06-06T07:03:42+02:00 INFO  accessLog email asd@gmail.com 
+2014-06-06T07:03:42+02:00 INFO  accessLog saEZ6MlWYV9nQ 
+2014-06-06T07:03:42+02:00 INFO  accessLog status 1 
+2014-06-06T07:03:42+02:00 INFO  accessLog 70	abc1	Users	create	92
+2014-06-06T07:03:43+02:00 INFO  accessLog name  vishnuABC
+2014-06-06T07:03:43+02:00 INFO  accessLog email asd@gmail.com 
+2014-06-06T07:03:43+02:00 INFO  accessLog saEZ6MlWYV9nQ 
+2014-06-06T07:03:43+02:00 INFO  accessLog status 1 
+2014-06-06T07:03:43+02:00 INFO  accessLog 70	abc1	Users	create	93
+2014-06-06T07:04:22+02:00 INFO  accessLog name  asda
+2014-06-06T07:04:22+02:00 INFO  accessLog email asd@gmail.com 
+2014-06-06T07:04:22+02:00 INFO  accessLog saFLGt/QKS6yw 
+2014-06-06T07:04:22+02:00 INFO  accessLog 70	abc1	Users	create	94
+2014-06-06T07:06:19+02:00 INFO  accessLog name  shjdgf
+2014-06-06T07:06:19+02:00 INFO  accessLog email dsfs@gmail.com 
+2014-06-06T07:06:19+02:00 INFO  accessLog saFLGt/QKS6yw 
+2014-06-06T07:06:19+02:00 INFO  accessLog 70	abc1	Users	create	95
+2014-06-06T07:06:25+02:00 INFO  accessLog name  shjdgf
+2014-06-06T07:06:25+02:00 INFO  accessLog email dsfs@gmail.com 
+2014-06-06T07:06:25+02:00 INFO  accessLog saEZ6MlWYV9nQ 
+2014-06-06T07:06:25+02:00 INFO  accessLog status 0 
+2014-06-06T07:06:25+02:00 INFO  accessLog 70	abc1	Users	create	96
+2014-06-06T07:06:26+02:00 INFO  accessLog name  shjdgf
+2014-06-06T07:06:26+02:00 INFO  accessLog email dsfs@gmail.com 
+2014-06-06T07:06:26+02:00 INFO  accessLog saEZ6MlWYV9nQ 
+2014-06-06T07:06:26+02:00 INFO  accessLog status 0 
+2014-06-06T07:06:26+02:00 INFO  accessLog 70	abc1	Users	create	97
+2014-06-06T07:13:40+02:00 INFO  accessLog name  ashish
+2014-06-06T07:13:40+02:00 INFO  accessLog email ashi@gmail.com 
+2014-06-06T07:13:40+02:00 INFO  accessLog saFLGt/QKS6yw 
+2014-06-06T07:13:40+02:00 INFO  accessLog 70	abc1	Users	create	98
+2014-06-06T07:13:49+02:00 INFO  accessLog name  ashish
+2014-06-06T07:13:49+02:00 INFO  accessLog email ashi@gmail.com 
+2014-06-06T07:13:49+02:00 INFO  accessLog saEZ6MlWYV9nQ 
+2014-06-06T07:13:49+02:00 INFO  accessLog status 1 
+2014-06-06T07:13:49+02:00 INFO  accessLog 70	abc1	Users	create	99
+2014-06-06T07:13:50+02:00 INFO  accessLog name  ashish
+2014-06-06T07:13:50+02:00 INFO  accessLog email ashi@gmail.com 
+2014-06-06T07:13:50+02:00 INFO  accessLog saEZ6MlWYV9nQ 
+2014-06-06T07:13:50+02:00 INFO  accessLog status 1 
+2014-06-06T07:22:23+02:00 INFO  accessLog 70	abc1	Users	create	115
+2014-06-06T07:26:41+02:00 INFO  accessLog name  mansi
+2014-06-06T07:26:41+02:00 INFO  accessLog email m@gmail.com 
+2014-06-06T07:26:41+02:00 INFO  accessLog saFLGt/QKS6yw 
+2014-06-06T07:26:41+02:00 INFO  accessLog 70	abc1	Users	create	116
+2014-06-06T07:27:05+02:00 INFO  accessLog name  mansi
+2014-06-06T07:27:05+02:00 INFO  accessLog email m@gmail.com 
+2014-06-06T07:27:05+02:00 INFO  accessLog saEZ6MlWYV9nQ 
+2014-06-06T07:27:05+02:00 INFO  accessLog status 1 
+2014-06-06T07:27:05+02:00 INFO  accessLog 70	abc1	Users	create	117
+2014-06-06T08:10:21+02:00 INFO  accessLog name  banani
+2014-06-06T08:10:21+02:00 INFO  accessLog email b@gmail.com 
+2014-06-06T08:10:21+02:00 INFO  accessLog saEZ6MlWYV9nQ 
+2014-06-06T08:10:21+02:00 INFO  accessLog status 0 
+2014-06-06T08:10:21+02:00 INFO  accessLog 70	abc1	Users	create	119
+2014-06-06T08:17:36+02:00 INFO  accessLog name  banani
+2014-06-06T08:17:36+02:00 INFO  accessLog email b@gmail.com 
+2014-06-06T08:17:36+02:00 INFO  accessLog 123 
+2014-06-06T08:17:36+02:00 INFO  accessLog status 0 
+2014-06-06T08:17:36+02:00 INFO  accessLog 70	abc1	Users	create	119
+2014-06-06T08:20:02+02:00 INFO  accessLog name bananixz bananixz123
+2014-06-06T08:20:02+02:00 INFO  accessLog 70	abc1	Users	update	119
+2014-06-06T18:37:08+02:00 INFO  accessLog name  jhg
+2014-06-06T18:37:08+02:00 INFO  accessLog 82	vishnu	Category	create	3
+2014-06-06T18:39:40+02:00 INFO  accessLog name  gh
+2014-06-06T18:39:40+02:00 INFO  accessLog 82	vishnu	Category	create	4
+2014-06-06T18:39:54+02:00 INFO  accessLog name  jhg
+2014-06-06T18:39:54+02:00 INFO  accessLog 82	vishnu	Category	create	5
+2014-06-07T07:19:19+02:00 INFO  accessLog name  vmay
+2014-06-07T07:19:19+02:00 INFO  accessLog email vmay@gmail.com 
+2014-06-07T07:19:19+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-07T07:19:19+02:00 INFO  accessLog status 0 
+2014-06-07T07:19:19+02:00 INFO  accessLog 82	vishnu	Users	create	121
+2014-06-07T07:20:22+02:00 INFO  accessLog name  vmay
+2014-06-07T07:20:22+02:00 INFO  accessLog email vmay@gmail.com 
+2014-06-07T07:20:22+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-07T07:20:22+02:00 INFO  accessLog status 0 
+2014-06-07T07:20:22+02:00 INFO  accessLog 82	vishnu	Users	create	122
+2014-06-07T07:20:59+02:00 INFO  accessLog name  vmay
+2014-06-07T07:20:59+02:00 INFO  accessLog email vmay@gmail.com 
+2014-06-07T07:20:59+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-07T07:20:59+02:00 INFO  accessLog status 0 
+2014-06-07T07:20:59+02:00 INFO  accessLog 82	vishnu	Users	create	123
+2014-06-07T07:22:20+02:00 INFO  accessLog name  vmay
+2014-06-07T07:22:20+02:00 INFO  accessLog email vmay@gmail.com 
+2014-06-07T07:22:20+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-07T07:22:20+02:00 INFO  accessLog status 0 
+2014-06-07T07:22:20+02:00 INFO  accessLog 82	vishnu	Users	create	124
+2014-06-07T07:22:50+02:00 INFO  accessLog name  vmay
+2014-06-07T07:22:50+02:00 INFO  accessLog email vmay@gmail.com 
+2014-06-07T07:22:50+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-07T07:22:50+02:00 INFO  accessLog status 0 
+2014-06-07T07:22:50+02:00 INFO  accessLog 82	vishnu	Users	create	125
+2014-06-07T07:25:08+02:00 INFO  accessLog name  vishnuas
+2014-06-07T07:25:08+02:00 INFO  accessLog email vishnu@gmail.com 
+2014-06-07T07:25:08+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-07T07:25:08+02:00 INFO  accessLog status 0 
+2014-06-07T07:25:08+02:00 INFO  accessLog 82	vishnu	Users	create	126
+2014-06-07T08:29:43+02:00 INFO  accessLog name  cat1
+2014-06-07T08:29:43+02:00 INFO  accessLog 127	org2	Category	create	6
+2014-06-08T07:48:52+02:00 INFO  accessLog name  chinna
+2014-06-08T07:48:52+02:00 INFO  accessLog email chinna@gmail.com 
+2014-06-08T07:48:52+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-08T07:48:52+02:00 INFO  accessLog status 0 
+2014-06-08T07:48:52+02:00 INFO  accessLog 127	org2	Users	create	128
+2014-06-09T08:28:53+02:00 INFO  accessLog 129	vishnu962014	Tags	create	9
+2014-06-09T09:11:00+02:00 INFO  accessLog name  vishnu
+2014-06-09T09:11:00+02:00 INFO  accessLog email vishnu@gmail.com 
+2014-06-09T09:11:00+02:00 INFO  accessLog passwordsa5Boz/NeN2pU 
+2014-06-09T09:11:00+02:00 INFO  accessLog 129	vishnu962014	Users	create	131
+2014-06-09T13:10:18+02:00 INFO  accessLog 127	org2	Tags	create	10
+2014-06-09T13:56:23+02:00 INFO  accessLog name  selva
+2014-06-09T13:56:23+02:00 INFO  accessLog email selvsk@gmail.com 
+2014-06-09T13:56:23+02:00 INFO  accessLog passwordsaIw8lAd62Ec. 
+2014-06-09T13:56:23+02:00 INFO  accessLog 127	org2	Users	create	133
+2014-06-10T09:54:40+02:00 INFO  accessLog name  coding
+2014-06-10T09:54:40+02:00 INFO  accessLog 127	org2	Category	create	7
+2014-06-10T09:54:56+02:00 INFO  accessLog name  algorithm
+2014-06-10T09:54:56+02:00 INFO  accessLog 127	org2	Category	create	8
+2014-06-11T06:28:49+02:00 INFO  accessLog name  vishnu
+2014-06-11T06:28:49+02:00 INFO  accessLog email vishnu@gmail.com 
+2014-06-11T06:28:49+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-11T06:28:49+02:00 INFO  accessLog status 0 
+2014-06-11T06:28:49+02:00 INFO  accessLog 127	org2	Users	create	134
+2014-06-11T23:00:02+02:00 INFO  accessLog 127	org2	Tags	create	11
+2014-06-11T23:29:48+02:00 INFO  accessLog 135	new orgnaisation	Tags	create	12
+2014-06-11T23:30:03+02:00 INFO  accessLog name  category2
+2014-06-11T23:30:03+02:00 INFO  accessLog 135	new orgnaisation	Category	create	9
+2014-06-12T20:01:56+02:00 INFO  accessLog name  user1
+2014-06-12T20:01:56+02:00 INFO  accessLog email user1@gmail.com 
+2014-06-12T20:01:56+02:00 INFO  accessLog passwordsaFLGt/QKS6yw 
+2014-06-12T20:01:56+02:00 INFO  accessLog 127	org2	Users	create	136
+2014-06-12T20:04:24+02:00 INFO  accessLog name  user3
+2014-06-12T20:04:24+02:00 INFO  accessLog email user3@gmail.com 
+2014-06-12T20:04:24+02:00 INFO  accessLog passwordsaFLGt/QKS6yw 
+2014-06-12T20:04:24+02:00 INFO  accessLog status 0 
+2014-06-12T20:04:24+02:00 INFO  accessLog 127	org2	Users	create	137
+2014-06-13T13:12:53+02:00 INFO  accessLog 127	org2	Tags	create	26
+2014-06-13T13:48:32+02:00 INFO  accessLog name  C++
+2014-06-13T13:48:32+02:00 INFO  accessLog 138	IIT Bombay1	Category	create	10
+2014-06-13T13:48:46+02:00 INFO  accessLog name  JAVA
+2014-06-13T13:48:46+02:00 INFO  accessLog 138	IIT Bombay1	Category	create	11
+2014-06-13T13:49:02+02:00 INFO  accessLog name  POWER SYSTEM
+2014-06-13T13:49:02+02:00 INFO  accessLog 138	IIT Bombay1	Category	create	12
+2014-06-13T13:49:16+02:00 INFO  accessLog name  POWER ELECTRONICS
+2014-06-13T13:49:16+02:00 INFO  accessLog 138	IIT Bombay1	Category	create	13
+2014-06-13T13:53:44+02:00 INFO  accessLog 138	IIT Bombay1	Tags	create	27
+2014-06-13T13:54:00+02:00 INFO  accessLog 138	IIT Bombay1	Tags	create	28
+2014-06-13T13:54:14+02:00 INFO  accessLog 138	IIT Bombay1	Tags	create	29
+2014-06-13T13:54:39+02:00 INFO  accessLog 138	IIT Bombay1	Tags	create	30
+2014-06-13T13:58:12+02:00 INFO  accessLog 138	IIT Bombay1	Tags	create	31
+2014-06-13T14:05:20+02:00 INFO  accessLog name  online viewer
+2014-06-13T14:05:20+02:00 INFO  accessLog description  can view files online..
+2014-06-13T14:05:20+02:00 INFO  accessLog 138	IIT Bombay1	Module	create	58
+2014-06-13T14:06:20+02:00 INFO  accessLog name  online viewer
+2014-06-13T14:06:20+02:00 INFO  accessLog description  displaying files onlimne
+2014-06-13T14:06:20+02:00 INFO  accessLog 138	IIT Bombay1	Module	create	59
+2014-06-13T14:22:02+02:00 INFO  accessLog name  sashi
+2014-06-13T14:22:02+02:00 INFO  accessLog email sa@gmail.com 
+2014-06-13T14:22:02+02:00 INFO  accessLog passwordsadgC/1v9zmic 
+2014-06-13T14:22:02+02:00 INFO  accessLog status 1 
+2014-06-13T14:22:02+02:00 INFO  accessLog 138	IIT Bombay1	Users	create	139
+2014-06-13T14:29:50+02:00 INFO  accessLog name  viki
+2014-06-13T14:29:50+02:00 INFO  accessLog email v@gmail.com 
+2014-06-13T14:29:50+02:00 INFO  accessLog passwordsadgC/1v9zmic 
+2014-06-13T14:29:50+02:00 INFO  accessLog status 1 
+2014-06-13T14:29:50+02:00 INFO  accessLog 138	IIT Bombay1	Users	create	140
+2014-06-13T15:01:26+02:00 INFO  accessLog name  Coding
+2014-06-13T15:01:26+02:00 INFO  accessLog 142	IIT Bombay	Category	create	14
+2014-06-13T15:01:45+02:00 INFO  accessLog name  algorithms
+2014-06-13T15:01:45+02:00 INFO  accessLog 142	IIT Bombay	Category	create	15
+2014-06-13T15:02:00+02:00 INFO  accessLog name  powe electronics
+2014-06-13T15:02:00+02:00 INFO  accessLog 142	IIT Bombay	Category	create	16
+2014-06-13T15:02:35+02:00 INFO  accessLog 142	IIT Bombay	Tags	create	32
+2014-06-13T15:02:35+02:00 INFO  accessLog 142	IIT Bombay	Tags	create	33
+2014-06-13T15:02:48+02:00 INFO  accessLog 142	IIT Bombay	Tags	create	34
+2014-06-13T15:03:14+02:00 INFO  accessLog 142	IIT Bombay	Tags	create	35
+2014-06-13T15:04:12+02:00 INFO  accessLog name  admin
+2014-06-13T15:04:12+02:00 INFO  accessLog description  adninistrator
+2014-06-13T15:04:12+02:00 INFO  accessLog 142	IIT Bombay	Module	create	60
+2014-06-13T15:04:52+02:00 INFO  accessLog name  add asset
+2014-06-13T15:04:52+02:00 INFO  accessLog description  adding files  to the server
+2014-06-13T15:04:52+02:00 INFO  accessLog 142	IIT Bombay	Module	create	61
+2014-06-13T15:08:48+02:00 INFO  accessLog name  ashish
+2014-06-13T15:08:48+02:00 INFO  accessLog email aks133844@gmail.com 
+2014-06-13T15:08:48+02:00 INFO  accessLog passwordsadgC/1v9zmic 
+2014-06-13T15:08:48+02:00 INFO  accessLog mobile 8998123456 
+2014-06-13T15:08:48+02:00 INFO  accessLog status 1 
+2014-06-13T15:08:48+02:00 INFO  accessLog 142	IIT Bombay	Users	create	143
+2014-06-13T15:38:31+02:00 INFO  accessLog name  website development
+2014-06-13T15:38:31+02:00 INFO  accessLog 142	IIT Bombay	Category	create	17
+2014-06-15T06:51:36+02:00 INFO  accessLog name  Codinf
+2014-06-15T06:51:36+02:00 INFO  accessLog 1	IIT Bombay	Category	create	1
+2014-06-16T08:33:05+02:00 INFO  accessLog name  module1
+2014-06-16T08:33:05+02:00 INFO  accessLog 1	IIT Bombay	Module	create	1
+2014-06-16T13:08:22+02:00 INFO  accessLog name  vishnu1
+2014-06-16T13:08:22+02:00 INFO  accessLog email vishnu1@gmail.com 
+2014-06-16T13:08:22+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-16T13:08:22+02:00 INFO  accessLog mobile 7870889723 
+2014-06-16T13:08:22+02:00 INFO  accessLog status 0 
+2014-06-16T13:08:22+02:00 INFO  accessLog 1	IIT Bombay	Users	create	3
+2014-06-16T13:09:00+02:00 INFO  accessLog name  chinna
+2014-06-16T13:09:00+02:00 INFO  accessLog email chinna@gmail.com 
+2014-06-16T13:09:00+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-16T13:09:00+02:00 INFO  accessLog mobile 9037535375 
+2014-06-16T13:09:00+02:00 INFO  accessLog status 1 
+2014-06-16T13:09:00+02:00 INFO  accessLog 1	IIT Bombay	Users	create	4
+2014-06-16T13:17:21+02:00 INFO  accessLog name  chinni
+2014-06-16T13:17:21+02:00 INFO  accessLog email chinni@gmail.com 
+2014-06-16T13:17:21+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-16T13:17:21+02:00 INFO  accessLog status 0 
+2014-06-16T13:17:21+02:00 INFO  accessLog 1	IIT Bombay	Users	create	5
+2014-06-17T00:04:23+02:00 INFO  accessLog name  koding
+2014-06-17T00:04:24+02:00 INFO  accessLog 8	IITB1	Category	create	2
+2014-06-17T00:04:40+02:00 INFO  accessLog name  logic design
+2014-06-17T00:04:40+02:00 INFO  accessLog 8	IITB1	Category	create	3
+2014-06-17T00:04:55+02:00 INFO  accessLog name  computer organisation
+2014-06-17T00:04:55+02:00 INFO  accessLog 8	IITB1	Category	create	4
+2014-06-17T00:05:17+02:00 INFO  accessLog 8	IITB1	Tags	create	3
+2014-06-17T00:05:27+02:00 INFO  accessLog 8	IITB1	Tags	create	4
+2014-06-17T00:05:34+02:00 INFO  accessLog 8	IITB1	Tags	create	5
+2014-06-17T00:05:58+02:00 INFO  accessLog name  module12
+2014-06-17T00:05:58+02:00 INFO  accessLog 8	IITB1	Module	create	58
+2014-06-17T00:06:06+02:00 INFO  accessLog name  module13
+2014-06-17T00:06:06+02:00 INFO  accessLog 8	IITB1	Module	create	59
+2014-06-17T00:15:00+02:00 INFO  accessLog name  vishnu17061
+2014-06-17T00:15:00+02:00 INFO  accessLog email vishnu@gmail.com 
+2014-06-17T00:15:00+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-17T00:15:00+02:00 INFO  accessLog status 0 
+2014-06-17T00:15:00+02:00 INFO  accessLog 8	IITB1	Users	create	10
+2014-06-17T15:16:15+02:00 INFO  accessLog name  abcd
+2014-06-17T15:16:15+02:00 INFO  accessLog email asd@gmail.com 
+2014-06-17T15:16:15+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-17T15:16:15+02:00 INFO  accessLog status 0 
+2014-06-17T15:16:15+02:00 INFO  accessLog 8	IITB1	Users	create	12
+2014-06-17T15:16:57+02:00 INFO  accessLog name  abcd2
+2014-06-17T15:16:57+02:00 INFO  accessLog email asd@gmail.com 
+2014-06-17T15:16:57+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-17T15:16:57+02:00 INFO  accessLog mobile 8769898 
+2014-06-17T15:16:57+02:00 INFO  accessLog status 1 
+2014-06-17T15:16:57+02:00 INFO  accessLog 8	IITB1	Users	create	13
+2014-06-17T15:17:34+02:00 INFO  accessLog name  hjk1
+2014-06-17T15:17:34+02:00 INFO  accessLog email djh@gmail.com 
+2014-06-17T15:17:34+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-17T15:17:34+02:00 INFO  accessLog status 0 
+2014-06-17T15:17:34+02:00 INFO  accessLog 8	IITB1	Users	create	14
+2014-06-19T05:19:29+02:00 INFO  accessLog name  cseuser
+2014-06-19T05:19:29+02:00 INFO  accessLog email cse@gmail.com 
+2014-06-19T05:19:29+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-19T05:19:29+02:00 INFO  accessLog status 0 
+2014-06-19T05:19:29+02:00 INFO  accessLog 8	IITB1	Users	create	15
+2014-06-19T05:20:05+02:00 INFO  accessLog name  cseuser1
+2014-06-19T05:20:05+02:00 INFO  accessLog email cse@gmail.com 
+2014-06-19T05:20:05+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-19T05:20:05+02:00 INFO  accessLog status 0 
+2014-06-19T05:20:05+02:00 INFO  accessLog 8	IITB1	Users	create	16
+2014-06-20T06:25:36+02:00 INFO  accessLog assetId 15
+2014-06-20T06:25:36+02:00 INFO  accessLog assetName  galaxy
+2014-06-20T06:25:36+02:00 INFO  accessLog file  Galaxy_S4.jpg
+2014-06-20T06:25:36+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T06:25:36+02:00 INFO  accessLog description  galaxy s4
+2014-06-20T06:25:36+02:00 INFO  accessLog comment  galaxy s4
+2014-06-20T06:25:36+02:00 INFO  accessLog description  galaxy s4
+2014-06-20T06:25:36+02:00 INFO  accessLog publication  0
+2014-06-20T06:25:36+02:00 INFO  accessLog onlineEditable  0
+2014-06-20T06:25:36+02:00 INFO  accessLog onlineEditable  0
+2014-06-20T06:25:36+02:00 INFO  accessLog size  40065
+2014-06-20T06:25:36+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T06:25:36+02:00 INFO  accessLog reviewer  10
+2014-06-20T06:25:36+02:00 INFO  accessLog ownerId  8
+2014-06-20T06:25:36+02:00 INFO  accessLog assetId  15
+2014-06-20T06:25:36+02:00 INFO  accessLog tagId  3
+2014-06-20T06:25:36+02:00 INFO  accessLog assetId  15
+2014-06-20T06:25:36+02:00 INFO  accessLog tagId  8
+2014-06-20T06:50:24+02:00 INFO  accessLog assetId 16
+2014-06-20T06:50:24+02:00 INFO  accessLog assetName  notes file
+2014-06-20T06:50:24+02:00 INFO  accessLog file  notes.txt
+2014-06-20T06:50:24+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T06:50:24+02:00 INFO  accessLog size  189
+2014-06-20T06:50:24+02:00 INFO  accessLog type  text/plain
+2014-06-20T06:50:24+02:00 INFO  accessLog reviewer  10
+2014-06-20T06:50:24+02:00 INFO  accessLog ownerId  8
+2014-06-20T06:59:00+02:00 INFO  accessLog assetId 17
+2014-06-20T06:59:00+02:00 INFO  accessLog assetName  notes file
+2014-06-20T06:59:00+02:00 INFO  accessLog file  notes.txt
+2014-06-20T06:59:00+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T06:59:00+02:00 INFO  accessLog size  189
+2014-06-20T06:59:00+02:00 INFO  accessLog type  text/plain
+2014-06-20T06:59:00+02:00 INFO  accessLog reviewer  10
+2014-06-20T06:59:00+02:00 INFO  accessLog ownerId  8
+2014-06-20T07:01:41+02:00 INFO  accessLog assetId 18
+2014-06-20T07:01:41+02:00 INFO  accessLog assetName  notes file1
+2014-06-20T07:01:41+02:00 INFO  accessLog file  notes.txt
+2014-06-20T07:01:42+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T07:01:42+02:00 INFO  accessLog size  189
+2014-06-20T07:01:42+02:00 INFO  accessLog type  text/plain
+2014-06-20T07:01:42+02:00 INFO  accessLog reviewer  10
+2014-06-20T07:01:42+02:00 INFO  accessLog ownerId  8
+2014-06-20T07:05:15+02:00 INFO  accessLog assetId 19
+2014-06-20T07:05:15+02:00 INFO  accessLog assetName  notes file
+2014-06-20T07:05:15+02:00 INFO  accessLog file  notes.txt
+2014-06-20T07:05:15+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T07:05:15+02:00 INFO  accessLog size  189
+2014-06-20T07:05:15+02:00 INFO  accessLog type  text/plain
+2014-06-20T07:05:15+02:00 INFO  accessLog reviewer  10
+2014-06-20T07:05:15+02:00 INFO  accessLog ownerId  8
+2014-06-20T07:08:08+02:00 INFO  accessLog assetId 20
+2014-06-20T07:08:08+02:00 INFO  accessLog assetName  nootesfile
+2014-06-20T07:08:08+02:00 INFO  accessLog file  notes.txt
+2014-06-20T07:08:08+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T07:08:08+02:00 INFO  accessLog size  189
+2014-06-20T07:08:08+02:00 INFO  accessLog type  text/plain
+2014-06-20T07:08:08+02:00 INFO  accessLog reviewer  10
+2014-06-20T07:08:08+02:00 INFO  accessLog ownerId  8
+2014-06-20T07:09:36+02:00 INFO  accessLog assetId 21
+2014-06-20T07:09:36+02:00 INFO  accessLog assetName  notes file1
+2014-06-20T07:09:36+02:00 INFO  accessLog file  notes.txt
+2014-06-20T07:09:36+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T07:09:36+02:00 INFO  accessLog size  189
+2014-06-20T07:09:36+02:00 INFO  accessLog type  text/plain
+2014-06-20T07:09:36+02:00 INFO  accessLog reviewer  10
+2014-06-20T07:09:36+02:00 INFO  accessLog ownerId  8
+2014-06-20T13:16:06+02:00 INFO  accessLog name  vishnuchinna
+2014-06-20T13:16:06+02:00 INFO  accessLog email vishnu@gmail.com 
+2014-06-20T13:16:06+02:00 INFO  accessLog passwordsaEZ6MlWYV9nQ 
+2014-06-20T13:16:06+02:00 INFO  accessLog mobile 234124124114 
+2014-06-20T13:16:06+02:00 INFO  accessLog status 0 
+2014-06-20T13:16:06+02:00 INFO  accessLog 8	IITB1	Users	create	17
+2014-06-20T14:18:35+02:00 INFO  accessLog assetId 22
+2014-06-20T14:18:35+02:00 INFO  accessLog assetName  encryptionTry
+2014-06-20T14:18:35+02:00 INFO  accessLog file  fbPLe1BJExZKvAOwBohMajJrw7HXdFeTa2vlOpUmr5FOrUE7nCMTW326/fEn/DCcxFqlLqrD5QCFoQWnp7irEzhVhXZQ1yc9SxvoQgYsgdjSdeDVjOShGt/popXrHH86Xp7Yv0yp6R3KOOz1P+vT3dYo4Co+LnzCvZb8rcZPGETgHY1K2oN3uR+9FT+eYWQcFf/2UkgfEBPrjz3fY/IP4xxCr7Uj/e3oi896W2VUFpjI0JAlNI3Rna7uWYmt/cqWgekou5xoDF8dmJNT9FDkIB/hVc8mUvRx58S7gslZuw5BxkMHkDNXXM8+G93mNcvuqW+8mcWv43+OvSscgzWFNXfjigtLOwIgzlFiiMkWMmYHg2cp/bgIRa6Nnsv2q4mjve6FT4h+GimSyqBrqg4pEbiJxhxmUVO3zejV1daFyAyFPlAowB0t4gtCJo1zBfEOEFQoB+xeAjyR7H0q/gatl1YBmhIsIARkbCNvvOf9N0G3h1uAg65Jr3epFeXL3zVi|zVcuxuTPizQcfjxyZHqnKfOTQMx4nzQ7Hg7gBu27Dto=
+2014-06-20T14:18:35+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T14:18:35+02:00 INFO  accessLog size  632948
+2014-06-20T14:18:35+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T14:18:35+02:00 INFO  accessLog reviewer  10
+2014-06-20T14:18:35+02:00 INFO  accessLog ownerId  8
+2014-06-20T14:20:01+02:00 INFO  accessLog assetId 23
+2014-06-20T14:20:01+02:00 INFO  accessLog assetName  encryptionTry
+2014-06-20T14:20:01+02:00 INFO  accessLog file  d2U6iBXeJqyb5QtoDwHQTR8MyHGD3Z21hQfj0mw21THYrzR/QmVzVWObecD+mUVV7zwKWL4lFAcj9/goFmlbkNvbv6Op2XmWZKayuD/YzJFlnXgdZfuUQV5YGL/iEcGh98PRkWLNO7u16yJcAmlo9idwDueiIWTEUW8vtCBZohusStQ23YSoIaWLFxN9ozQ1guQ0WsaleFXoacrxq7ZkrMMY6EDu9ocfJoJuhxSScwIMPh96FEiNpdzvMj4sb6UsBAd4sqrXaA7aqWUNSeTA0dUgcnFQAZBQmK/vTf31nVyqZZl0yj7SiiMpyffh86139d3EyIlCiIFK6f3Y0wrtbXbhBr7lMDcxx/Fiqb8/bIvQ6k4ZulqPa0bqy0opYMmgKCL8vC91IaVAkz2WFTeEVUqml51ks+gAFObadf/zlHUS+bTu3keKlBk3IqxowSvl+uHj965aCQ9u71lDxHxT+3JQynk8YIjsmIg/uiigjGT34NMVJ9MzKjU7huMt2ndB|5p/v1lFzW2xf/inErBLdA8QmXJb1A8OBoBdHO3ga7wo=
+2014-06-20T14:20:01+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T14:20:01+02:00 INFO  accessLog size  632948
+2014-06-20T14:20:01+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T14:20:01+02:00 INFO  accessLog reviewer  10
+2014-06-20T14:20:01+02:00 INFO  accessLog ownerId  8
+2014-06-20T14:21:51+02:00 INFO  accessLog assetId 24
+2014-06-20T14:21:51+02:00 INFO  accessLog assetName  encryptionTry
+2014-06-20T14:21:51+02:00 INFO  accessLog file  ypCcyCeHXO5YDvXQzU9bS38qPMAM+hYNXftU4Tsu8JzXPS/ruxCFf0V3+99zPlyzeJiYgs9ZdJw3n/+dRx+tZX4VF3e714aETtl8wV0zIqG9POYO9jq3HMCS0NiyYfLqugXyenTMC5f80X3PAdSkRuJhgUSD4qozIuE2iWbL1gG8P6/A5bBNn5e9Dddy+7KVz12Rpqu10jTX8QddUIhbzS1iZBAWwXu0HQzDf/M5ONblDQ0ekPYd6p86wqFmmNpYzI/3p+CvjWIJ0tFqICDdlMbVpZeeLmN+JUpQnBr7Mmwg1vE00S2oJHqAsrGwByDVQPJPiDEXASpMJCHjOd45o9bjwbwErbYtJdB2my9lQ6GQdg7ISg9bYKV4+uNAfJjlpaeLj7xdw6obEtrsHDO6i0KwZR2Csqk9X3jhreYkfCcvU5VFb9K7Uqsv4zev+oGzJe0klFtv4wG2VnkFTyhRXxU30YVqcMBsyi/lkss3C9wY9CY8PsvBUNMs5myt5fId|sQAePUjMFrWBq27BsY+huNXo+phxnbX6Vvz8dzVSWTA=
+2014-06-20T14:21:51+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T14:21:51+02:00 INFO  accessLog size  632948
+2014-06-20T14:21:51+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T14:21:51+02:00 INFO  accessLog reviewer  10
+2014-06-20T14:21:51+02:00 INFO  accessLog ownerId  8
+2014-06-20T14:22:07+02:00 INFO  accessLog assetId 25
+2014-06-20T14:22:07+02:00 INFO  accessLog file  YYfKWRA7HNr0clWaQzPugKyZ/ylE29cDPAYSAbSIuu5alJUAlx5OMDKJtzbZ4dW6dqATRW2gMijtptQNyN3dgz15NeHhan0RuVevoRrV7cCQG9TRoLUaOkUQ+eyYphfWJCIsAAhtFAOqAfEJm8wkRI1VBYoEKmE7wqlQJlqdThdUaTbn4QZl9WLrt47LtVxra80ns/3XWVIKiMx2ENMm/moNcazOV/OiVeAknqmnntcDF7LlCVcvyWwlL2v6NkNwOXYHMRPVNYWPLWh6cmo5NkVlFs7Q/+EFehHsUF2R0Y/4fxfUjyBSlmQE0WMAqlq40YjNMw7zOzmHVkuw/biOAUyFIuK4nGxXRyJWwxIy0eA2CZE5zKGjyBbKYEzlFvg+wipZpqSa9SmKVRipn8yb1tyo2oCR75pKAOnrX0+uYgk1mPKUpmmuiuLHPV8m5ZtC/Cj6opV0DCQiLtyOkts1koa/VkkXq+OcT+xs8AXIR6Felm97Xf/IyI/8u8Ynhmdr|UnqSHZAFjQjsbi0cq9IBjsevo32DX8OGpjiiAbu+H1Y=
+2014-06-20T14:22:07+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T14:22:07+02:00 INFO  accessLog size  40065
+2014-06-20T14:22:07+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T14:22:07+02:00 INFO  accessLog reviewer  10
+2014-06-20T14:22:07+02:00 INFO  accessLog ownerId  8
+2014-06-20T14:22:08+02:00 INFO  accessLog assetId 26
+2014-06-20T14:22:08+02:00 INFO  accessLog file  mVY2yWQ950FWS7U0blyIjIqyOCCIajrRzNvYENqyv5ZDAs7SnikRdXH39rH3pk9/qlZ+BWxup0NyWwqx3BmHzL6f+6jUvKwZ4dj+dztx4d+675jsGYZv3JrpVfrkOexs7xMcbCQf+9LPSYP0FKQmpldlN0HYgws9Kp+5zcI5O9452DN+D/G/RvWHYjDIuF4vdWvHUnwyuh4ct2qgU4Y4mWWRUTsh3T3GGvJ51DwBh7ldfTlaAIor5+yzPy8pKeUptUV2GMG/m1QKZYzi354iezHkzZiV/EPnFBMDc6j1P6fN0s3fiDiH38LZnUgTMwqqgWOGiweS1aafndNd/yJHPYBEo8dbRUI9/7oKmn1IS0LFz3jW3f9bSaQdn+xGonAkasHsbYtOFnbYEWHruA/nODpnjc8d3wt9S3vofSt5K0JZAuGiuPqg7YfBwT3pi1iejmOk6Bt/l7NpbQ/oV3QHntK64kkTCtJuIHp5uIRbla5MY0FEhJ/cciB5u4DpBK7p|yjiZ3qPRBIHABCrwEbOV72ypWbYCyQkueJI+4xzmFPs=
+2014-06-20T14:22:08+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T14:22:08+02:00 INFO  accessLog size  40065
+2014-06-20T14:22:08+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T14:22:08+02:00 INFO  accessLog reviewer  10
+2014-06-20T14:22:08+02:00 INFO  accessLog ownerId  8
+2014-06-20T14:24:17+02:00 INFO  accessLog assetId 27
+2014-06-20T14:24:17+02:00 INFO  accessLog file  bPCbFBzdsO3q/yoSQg8kuUY9kewnjqMOrB6PSQ9GjyGX/qDjKDZozWukSlJvMmZLalrH9N9cMMMt2GUwPmGKagpxigOFiCEsLeEc6cWgpRoz9VhUtMwVqYC7kY0fqJuRQXS1fEZ9Y9hwsBwlFL3xnQ0oarCVAUPwGF+UkzO0vWdQvXAW6SFPtGy1WV3AF9//YyOsgqghQU5q98sW9csshzfeaMLS0jjPHLzkPkMUzMXoXciuVyI+4GcHoTci/dmerx1AuLz+uJZsL2/IUQZGYnhHwjP7Ln8vncPnSNq5gpes3bcNGqQySP70FfYHsCGjfmIUitjBk3ENDv443KWnXwLpHDHnKZjh/gPB878f8iCSnsfClUI8mhOzyJ/+8lSTeDd+0u5zA80rMGcYEMNv33m/aontAlWZ/VCK/hxZqX8mAFH62tDJ8bWDHu8e6El8ukY+vzohzQdzDYIyRVIKMeXgOGyabE1+toiH6DnAj1IAOh3Rq3p4r2CmDLsjjzlQ|vblbHkPP9oREIzWvWoItbDzi8bYPwGMCfdNbjiSIUUM=
+2014-06-20T14:24:17+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T14:24:17+02:00 INFO  accessLog size  40065
+2014-06-20T14:24:17+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T14:24:17+02:00 INFO  accessLog reviewer  10
+2014-06-20T14:24:17+02:00 INFO  accessLog ownerId  8
+2014-06-20T14:24:39+02:00 INFO  accessLog assetId 28
+2014-06-20T14:24:39+02:00 INFO  accessLog file  KB02mhpbDWLTgsddEgWERpEC94d8OQ6Is4h1bumwjdMNDqvbvWFmAPXzB42e7C0euCUCkRfAyQOlRRBMGxe2FmbfQygroK/CgrU+ykGxHU9QC7SDyo20A5Mh2fI5keKpyPJvOALgBHpVeUIx0X6QdVTTrWtL+vTBsFR5oaQ1huQRqC90Lk4X2UbMgJnRZ/A7kfp7WoHO4HSPtJ/R8mcOpw+rAtdcJCM75hY7AUwkj+NHMUfn+52p/BCuSKrt6y/hQRz4KP47TMquRHfljLvtH7gYYHZscOYiWussjLuiJ5ITEYbwuUbE7FRhSZ5D0jIaHOJ0DgJT82LWgKIHbLO5Q0mtByFghxhGKST/v1I5d40aUIW6HMq9xNMhhKOj8GFQMZA2MQHrwCuA1llSqpsnVLNxsCH7AVeRcbfWjPc1Gel4//snfVjlIbQyg9ijDSotnHLaq1vCyCuOE8NIq221hkuRS/nfl/SRTV3mAK4TFFkfs5fpNQNy2Z/JIK1yH0JL|K0zob0FEU0jB3//0npdIbHm5YJM4meqqVTQTBTXnA8E=
+2014-06-20T14:24:39+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T14:24:39+02:00 INFO  accessLog size  40065
+2014-06-20T14:24:39+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T14:24:39+02:00 INFO  accessLog reviewer  10
+2014-06-20T14:24:39+02:00 INFO  accessLog ownerId  8
+2014-06-20T14:24:42+02:00 INFO  accessLog assetId 29
+2014-06-20T14:24:42+02:00 INFO  accessLog file  PqxSJSwQgTIIjfutTCl1Fd+tOAOvnOm7k7YuFamv3htfXWMSDAt11Sx5JN7fskPSfvR4K+ZHUa00xTgbpia2Z8g0p54TF35vREFMtyaALErYB3egZgGeOrxugsWBvdsgIhvWfTRBD2mrEIBJSklo/SGsX7M3OriGoiWbcaKNEDpWq1hBZMAMzEX0xoOBxpmR/2TekvZWwmu984f+Q5k848+cRwPQIWQoqT/z+t6yGf3/dc5akHojF/yEm1OWcMSaXJBYT7KFsvUqotSl9qAVB42TUj1bSRNlVVIcpNqoFZvm1E+JU5Vs3iE4JG1f3s8GDUOUAP4jPE245bosRsGPwUTNj9FQd1238U8daHi1TWra8zR9dbCkUpHdtB2JPQu+BTTkWULsPH2xv5g9ei5SvkpDFXiy/FFtGgCx34l6Qhzrj8mMpVGIEag6bYP0ZxB6IE/tYHQEMEn0QjtpgBW5TXrQz2mNnD4MLxmzrRspmKp14CWtQ2qfX6ipRdhVj67I|r3qH/w5ywU1VtAbBCbHBWOBxLa+JPJAIHlrtJO8Uzvk=
+2014-06-20T14:24:42+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T14:24:42+02:00 INFO  accessLog size  40065
+2014-06-20T14:24:42+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T14:24:42+02:00 INFO  accessLog reviewer  10
+2014-06-20T14:24:42+02:00 INFO  accessLog ownerId  8
+2014-06-20T14:25:14+02:00 INFO  accessLog assetId 30
+2014-06-20T14:25:14+02:00 INFO  accessLog file  Galaxy_S4.jpg
+2014-06-20T14:25:14+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T14:25:14+02:00 INFO  accessLog size  40065
+2014-06-20T14:25:14+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T14:25:14+02:00 INFO  accessLog reviewer  10
+2014-06-20T14:25:14+02:00 INFO  accessLog ownerId  8
+2014-06-20T19:22:09+02:00 INFO  accessLog assetId 31
+2014-06-20T19:22:09+02:00 INFO  accessLog file  swati.jpg
+2014-06-20T19:22:09+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T19:22:09+02:00 INFO  accessLog size  14948
+2014-06-20T19:22:09+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T19:22:09+02:00 INFO  accessLog reviewer  10
+2014-06-20T19:22:09+02:00 INFO  accessLog ownerId  8
+2014-06-20T19:22:09+02:00 INFO  accessLog assetId  31
+2014-06-20T19:22:09+02:00 INFO  accessLog tagId  6
+2014-06-20T19:36:52+02:00 INFO  accessLog assetId 32
+2014-06-20T19:36:52+02:00 INFO  accessLog file  swati.jpg
+2014-06-20T19:36:52+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T19:36:52+02:00 INFO  accessLog size  14948
+2014-06-20T19:36:52+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T19:36:52+02:00 INFO  accessLog reviewer  10
+2014-06-20T19:36:52+02:00 INFO  accessLog ownerId  8
+2014-06-20T19:46:45+02:00 INFO  accessLog assetId 33
+2014-06-20T19:46:45+02:00 INFO  accessLog file  swati.jpg
+2014-06-20T19:46:45+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T19:46:45+02:00 INFO  accessLog size  14948
+2014-06-20T19:46:45+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T19:46:45+02:00 INFO  accessLog reviewer  10
+2014-06-20T19:46:45+02:00 INFO  accessLog ownerId  8
+2014-06-20T20:09:28+02:00 INFO  accessLog assetId 34
+2014-06-20T20:09:28+02:00 INFO  accessLog file  ABSTRACT1.docx
+2014-06-20T20:09:28+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T20:09:28+02:00 INFO  accessLog size  11378
+2014-06-20T20:09:28+02:00 INFO  accessLog type  application/vnd.openxmlformats-officedocument.wordprocessingml.document
+2014-06-20T20:09:28+02:00 INFO  accessLog reviewer  10
+2014-06-20T20:09:28+02:00 INFO  accessLog ownerId  8
+2014-06-20T20:10:25+02:00 INFO  accessLog assetId 35
+2014-06-20T20:10:25+02:00 INFO  accessLog file  xxxx.odt
+2014-06-20T20:10:25+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T20:10:25+02:00 INFO  accessLog size  35137
+2014-06-20T20:10:25+02:00 INFO  accessLog type  application/octet-stream
+2014-06-20T20:10:25+02:00 INFO  accessLog reviewer  10
+2014-06-20T20:10:25+02:00 INFO  accessLog ownerId  8
+2014-06-20T20:18:39+02:00 INFO  accessLog assetId 36
+2014-06-20T20:18:40+02:00 INFO  accessLog file  HelloWorld-tutorial.pdf
+2014-06-20T20:18:40+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T20:18:40+02:00 INFO  accessLog size  171080
+2014-06-20T20:18:40+02:00 INFO  accessLog type  application/pdf
+2014-06-20T20:18:40+02:00 INFO  accessLog reviewer  10
+2014-06-20T20:18:40+02:00 INFO  accessLog ownerId  8
+2014-06-20T21:26:34+02:00 INFO  accessLog assetId 37
+2014-06-20T21:26:34+02:00 INFO  accessLog file  6.jpg
+2014-06-20T21:26:34+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T21:26:34+02:00 INFO  accessLog size  11988
+2014-06-20T21:26:34+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T21:26:34+02:00 INFO  accessLog reviewer  10
+2014-06-20T21:26:34+02:00 INFO  accessLog ownerId  8
+2014-06-20T21:34:01+02:00 INFO  accessLog assetId 38
+2014-06-20T21:34:01+02:00 INFO  accessLog file  swati.jpg
+2014-06-20T21:34:01+02:00 INFO  accessLog createDate  NOW()
+2014-06-20T21:34:01+02:00 INFO  accessLog size  14948
+2014-06-20T21:34:01+02:00 INFO  accessLog type  image/jpeg
+2014-06-20T21:34:01+02:00 INFO  accessLog reviewer  10
+2014-06-20T21:34:01+02:00 INFO  accessLog ownerId  8
+2014-06-21T06:56:35+02:00 INFO  accessLog assetId 39
+2014-06-21T06:56:35+02:00 INFO  accessLog file  swati.mp4
+2014-06-21T06:56:35+02:00 INFO  accessLog createDate  NOW()
+2014-06-21T06:56:35+02:00 INFO  accessLog reviewer  10
+2014-06-21T06:56:35+02:00 INFO  accessLog ownerId  8
+2014-06-21T07:15:08+02:00 INFO  accessLog assetId 40
+2014-06-21T07:15:08+02:00 INFO  accessLog file  Book.xlsx
+2014-06-21T07:15:08+02:00 INFO  accessLog createDate  NOW()
+2014-06-21T07:15:08+02:00 INFO  accessLog size  8285
+2014-06-21T07:15:08+02:00 INFO  accessLog type  application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+2014-06-21T07:15:08+02:00 INFO  accessLog reviewer  10
+2014-06-21T07:15:08+02:00 INFO  accessLog ownerId  8
+2014-06-21T07:15:09+02:00 INFO  accessLog assetId  40
+2014-06-21T07:15:09+02:00 INFO  accessLog tagId  6
+2014-06-21T07:35:07+02:00 INFO  accessLog assetId 41
+2014-06-21T07:35:07+02:00 INFO  accessLog assetName  FILE TEST
+2014-06-21T07:35:07+02:00 INFO  accessLog file  loading-msg.gif
+2014-06-21T07:35:07+02:00 INFO  accessLog createDate  NOW()
+2014-06-21T07:35:07+02:00 INFO  accessLog size  1518
+2014-06-21T07:35:07+02:00 INFO  accessLog type  image/gif
+2014-06-21T07:35:07+02:00 INFO  accessLog reviewer  10
+2014-06-21T07:35:07+02:00 INFO  accessLog ownerId  8
+2014-06-21T07:39:54+02:00 INFO  accessLog assetId 42
+2014-06-21T07:39:54+02:00 INFO  accessLog file  T7.gif
+2014-06-21T07:39:54+02:00 INFO  accessLog createDate  NOW()
+2014-06-21T07:39:54+02:00 INFO  accessLog size  8582
+2014-06-21T07:39:54+02:00 INFO  accessLog type  image/gif
+2014-06-21T07:39:54+02:00 INFO  accessLog reviewer  10
+2014-06-21T07:39:54+02:00 INFO  accessLog ownerId  8
+2014-06-21T07:42:22+02:00 INFO  accessLog assetId 43
+2014-06-21T07:42:22+02:00 INFO  accessLog assetName  file test t4
+2014-06-21T07:42:22+02:00 INFO  accessLog file  T4.gif
+2014-06-21T07:42:22+02:00 INFO  accessLog createDate  NOW()
+2014-06-21T07:42:22+02:00 INFO  accessLog size  12191
+2014-06-21T07:42:22+02:00 INFO  accessLog type  image/gif
+2014-06-21T07:42:22+02:00 INFO  accessLog reviewer  10
+2014-06-21T07:42:22+02:00 INFO  accessLog ownerId  8
+2014-06-21T07:43:30+02:00 INFO  accessLog assetId 44
+2014-06-21T07:43:30+02:00 INFO  accessLog assetName  t10
+2014-06-21T07:43:30+02:00 INFO  accessLog file  T10.gif
+2014-06-21T07:43:30+02:00 INFO  accessLog createDate  NOW()
+2014-06-21T07:43:30+02:00 INFO  accessLog size  13078
+2014-06-21T07:43:30+02:00 INFO  accessLog type  image/gif
+2014-06-21T07:43:30+02:00 INFO  accessLog reviewer  10
+2014-06-21T07:43:30+02:00 INFO  accessLog ownerId  8
+2014-06-21T08:37:39+02:00 INFO  accessLog assetId 45
+2014-06-21T08:37:39+02:00 INFO  accessLog assetName  log file
+2014-06-21T08:37:39+02:00 INFO  accessLog file  bcmwl6.log
+2014-06-21T08:37:39+02:00 INFO  accessLog createDate  NOW()
+2014-06-21T08:37:39+02:00 INFO  accessLog description  tis a log file
+2014-06-21T08:37:39+02:00 INFO  accessLog comment  coomment
+2014-06-21T08:37:39+02:00 INFO  accessLog description  tis a log file
+2014-06-21T08:37:39+02:00 INFO  accessLog publication  0
+2014-06-21T08:37:39+02:00 INFO  accessLog onlineEditable  0
+2014-06-21T08:37:39+02:00 INFO  accessLog onlineEditable  0
+2014-06-21T08:37:39+02:00 INFO  accessLog size  86
+2014-06-21T08:37:39+02:00 INFO  accessLog type  application/octet-stream
+2014-06-21T08:37:39+02:00 INFO  accessLog reviewer  10
+2014-06-21T08:37:39+02:00 INFO  accessLog ownerId  8
+2014-06-21T08:37:39+02:00 INFO  accessLog assetId  45
+2014-06-21T08:37:39+02:00 INFO  accessLog tagId  3
+2014-06-21T08:37:40+02:00 INFO  accessLog assetId  45
+2014-06-21T08:37:40+02:00 INFO  accessLog tagId  6
+2014-06-24T07:57:37+02:00 INFO  accessLog 8	IITB1	Tags	create	9
+2014-06-24T08:26:17+02:00 INFO  accessLog 8	IITB1	Tags	create	
+2014-06-24T08:38:00+02:00 INFO  accessLog 8	IITB1	Tags	create	
+2014-06-24T08:53:52+02:00 INFO  accessLog 8	IITB1	Tags	create	
+2014-06-24T09:08:29+02:00 INFO  accessLog name  ashishkumar
+2014-06-24T09:08:29+02:00 INFO  accessLog email sa@g.c 
+2014-06-24T09:08:29+02:00 INFO  accessLog passwordsadgC/1v9zmic 
+2014-06-24T09:08:29+02:00 INFO  accessLog mobile 1234567890 
+2014-06-24T09:08:29+02:00 INFO  accessLog status 1 
+2014-06-24T09:08:29+02:00 INFO  accessLog 8	IITB1	Users	create	18
+2014-06-24T09:19:47+02:00 INFO  accessLog 8	IITB1	Tags	create	
+2014-06-24T09:32:46+02:00 INFO  accessLog 8	IITB1	Tags	create	
+2014-06-24T09:42:02+02:00 INFO  accessLog 8	IITB1	Tags	create	
+2014-06-24T09:48:15+02:00 INFO  accessLog 8	IITB1	Tags	create	
+2014-06-24T09:51:30+02:00 INFO  accessLog 8	IITB1	Tags	create	
+2014-06-24T09:54:23+02:00 INFO  accessLog 8	IITB1	Tags	create	
+2014-06-24T09:55:46+02:00 INFO  accessLog 8	IITB1	Tags	create	
+2014-06-24T11:10:03+02:00 INFO  accessLog 8	IITB1	Tags	create	
+2014-06-27T14:17:27+02:00 INFO  accessLog assetId 31
+2014-06-27T14:17:27+02:00 INFO  accessLog file  Wildlife.wmv
+2014-06-27T14:17:27+02:00 INFO  accessLog createDate  NOW()
+2014-06-27T14:17:27+02:00 INFO  accessLog size  26246026
+2014-06-27T14:17:27+02:00 INFO  accessLog type  video/x-ms-wmv
+2014-06-27T14:17:27+02:00 INFO  accessLog reviewer  10
+2014-06-27T14:17:27+02:00 INFO  accessLog ownerId  8
+2014-06-27T14:21:46+02:00 INFO  accessLog assetId 32
+2014-06-27T14:21:46+02:00 INFO  accessLog file  Ajax Tutorial - Post to PHP File XMLHttpRequest Object Return Data Javascript - YouTube.mp4
+2014-06-27T14:21:46+02:00 INFO  accessLog createDate  NOW()
+2014-06-27T14:21:46+02:00 INFO  accessLog size  21947431
+2014-06-27T14:21:46+02:00 INFO  accessLog type  video/mp4
+2014-06-27T14:21:46+02:00 INFO  accessLog reviewer  10
+2014-06-27T14:21:46+02:00 INFO  accessLog ownerId  8
+2014-06-27T14:28:12+02:00 INFO  accessLog assetId 33
+2014-06-27T14:28:12+02:00 INFO  accessLog file  07-enrique_iglesias_feat._ludacris_and_dj_frank_e_-_tonight_im_lovin_you.mp3
+2014-06-27T14:28:12+02:00 INFO  accessLog createDate  NOW()
+2014-06-27T14:28:12+02:00 INFO  accessLog size  5279434
+2014-06-27T14:28:12+02:00 INFO  accessLog type  audio/mpeg
+2014-06-27T14:28:12+02:00 INFO  accessLog reviewer  10
+2014-06-27T14:28:12+02:00 INFO  accessLog ownerId  8
+2014-06-27T14:29:36+02:00 INFO  accessLog assetId 34
+2014-06-27T14:29:36+02:00 INFO  accessLog file  CHANGELOG.md
+2014-06-27T14:29:36+02:00 INFO  accessLog createDate  NOW()
+2014-06-27T14:29:36+02:00 INFO  accessLog size  190840
+2014-06-27T14:29:36+02:00 INFO  accessLog type  application/octet-stream
+2014-06-27T14:29:36+02:00 INFO  accessLog reviewer  10
+2014-06-27T14:29:36+02:00 INFO  accessLog ownerId  8
+2014-06-27T14:55:05+02:00 INFO  accessLog assetId 35
+2014-06-27T14:55:05+02:00 INFO  accessLog file  award winning funny commercial.flv
+2014-06-27T14:55:05+02:00 INFO  accessLog createDate  NOW()
+2014-06-27T14:55:05+02:00 INFO  accessLog size  7306009
+2014-06-27T14:55:05+02:00 INFO  accessLog type  video/flv
+2014-06-27T14:55:05+02:00 INFO  accessLog reviewer  10
+2014-06-27T14:55:05+02:00 INFO  accessLog ownerId  8
+2014-06-27T15:02:38+02:00 INFO  accessLog assetId 36
+2014-06-27T15:02:38+02:00 INFO  accessLog file  The Definitive Guide to Object-Oriented JavaScript - YouTube.mp4
+2014-06-27T15:02:38+02:00 INFO  accessLog createDate  NOW()
+2014-06-27T15:02:38+02:00 INFO  accessLog reviewer  10
+2014-06-27T15:02:39+02:00 INFO  accessLog ownerId  8
+2014-06-27T15:03:20+02:00 INFO  accessLog assetId 37
+2014-06-27T15:03:20+02:00 INFO  accessLog file  Ajax Tutorial - Post to PHP File XMLHttpRequest Object Return Data Javascript - YouTube.mp4
+2014-06-27T15:03:20+02:00 INFO  accessLog createDate  NOW()
+2014-06-27T15:03:20+02:00 INFO  accessLog size  21947431
+2014-06-27T15:03:20+02:00 INFO  accessLog type  video/mp4
+2014-06-27T15:03:20+02:00 INFO  accessLog reviewer  10
+2014-06-27T15:03:20+02:00 INFO  accessLog ownerId  8
+2014-06-27T15:04:39+02:00 INFO  accessLog assetId 38
+2014-06-27T15:04:39+02:00 INFO  accessLog file  aisha_gal_mitthi_mitthi(funmaza.com).wmv
+2014-06-27T15:04:39+02:00 INFO  accessLog createDate  NOW()
+2014-06-27T15:04:39+02:00 INFO  accessLog reviewer  10
+2014-06-27T15:04:39+02:00 INFO  accessLog ownerId  8
+2014-06-27T15:06:31+02:00 INFO  accessLog assetId 39
+2014-06-27T15:06:31+02:00 INFO  accessLog file  Firefox Setup Stub 30.0.exe
+2014-06-27T15:06:31+02:00 INFO  accessLog createDate  NOW()
+2014-06-27T15:06:32+02:00 INFO  accessLog size  284224
+2014-06-27T15:06:32+02:00 INFO  accessLog type  application/octet-stream
+2014-06-27T15:06:32+02:00 INFO  accessLog reviewer  10
+2014-06-27T15:06:32+02:00 INFO  accessLog ownerId  8
+2014-06-27T15:18:02+02:00 INFO  accessLog assetId 40
+2014-06-27T15:18:02+02:00 INFO  accessLog file  jquery.mobile-1.4.2.zip
+2014-06-27T15:18:02+02:00 INFO  accessLog createDate  NOW()
+2014-06-27T15:18:02+02:00 INFO  accessLog size  7690098
+2014-06-27T15:18:02+02:00 INFO  accessLog type  application/zip
+2014-06-27T15:18:02+02:00 INFO  accessLog reviewer  10
+2014-06-27T15:18:02+02:00 INFO  accessLog ownerId  8
+2014-06-28T09:34:48+02:00 INFO  accessLog assetId 41
+2014-06-28T09:34:48+02:00 INFO  accessLog file  Ajax Tutorial - Post to PHP File XMLHttpRequest Object Return Data Javascript - YouTube.mp4
+2014-06-28T09:34:48+02:00 INFO  accessLog createDate  NOW()
+2014-06-28T09:34:48+02:00 INFO  accessLog size  21947431
+2014-06-28T09:34:48+02:00 INFO  accessLog type  video/mp4
+2014-06-28T09:34:48+02:00 INFO  accessLog reviewer  10
+2014-06-28T09:34:48+02:00 INFO  accessLog ownerId  8
+2014-06-29T12:32:13+02:00 INFO  accessLog name  sagun
+2014-06-29T12:32:13+02:00 INFO  accessLog email s@g.c 
+2014-06-29T12:32:13+02:00 INFO  accessLog passwordsatpPLHMXmgFA 
+2014-06-29T12:32:13+02:00 INFO  accessLog mobile 1234567890 
+2014-06-29T12:32:13+02:00 INFO  accessLog status 1 
+2014-06-29T12:32:13+02:00 INFO  accessLog 8	IITB1	Users	create	20
+2014-06-29T12:33:05+02:00 INFO  accessLog passwordashish satpPLHMXmgFA
+2014-06-29T12:33:05+02:00 INFO  accessLog 8	IITB1	Users	update	20

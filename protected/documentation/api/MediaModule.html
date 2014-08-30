@@ -1,0 +1,712 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="language" content="en" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/api.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<title>MediaModule</title>
+</head>
+
+<body>
+<div id="apiPage">
+
+<div id="apiHeader">
+My Console Application Class Reference
+</div><!-- end of header -->
+
+<div id="content">
+<h1>MediaModule</h1>
+<div id="nav">
+<a href="index.html">All Packages</a>
+| <a href="#properties">Properties</a>
+| <a href="#methods">Methods</a>
+</div>
+
+<table class="summaryTable docClass">
+<colgroup>
+	<col class="col-name" />
+	<col class="col-value" />
+</colgroup>
+<tr>
+  <th>Inheritance</th>
+  <td>class MediaModule &raquo;
+<a href="CWebModule.html">CWebModule</a> &raquo;
+<a href="CModule.html">CModule</a> &raquo;
+<a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr>
+  <th>Source Code</th>
+  <td>app/modules/media/MediaModule.php</td>
+</tr>
+</table>
+
+<div id="classDescription">
+Web module for managing media (files and folders).</div>
+<a name="properties"></a>
+
+<div class="summary docProperty">
+<h2>Public Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-property" />
+	<col class="col-type" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr id="assetsUrl">
+  <td><a href="MediaModule.html#assetsUrl-detail">assetsUrl</a></td>
+  <td></td>
+  <td></td>
+  <td>MediaModule</td>
+</tr>
+<tr id="baseDir">
+  <td><a href="MediaModule.html#baseDir-detail">baseDir</a></td>
+  <td></td>
+  <td></td>
+  <td>MediaModule</td>
+</tr>
+<tr class="inherited" id="basePath">
+  <td><a href="CModule.html#basePath-detail">basePath</a></td>
+  <td>string</td>
+  <td>Returns the root directory of the module.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="behaviors">
+  <td><a href="CModule.html#behaviors-detail">behaviors</a></td>
+  <td>array</td>
+  <td>the behaviors that should be attached to the module.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="components">
+  <td><a href="CModule.html#components-detail">components</a></td>
+  <td>array</td>
+  <td>Returns the application components.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="controllerMap">
+  <td><a href="CWebModule.html#controllerMap-detail">controllerMap</a></td>
+  <td>array</td>
+  <td>mapping from controller ID to controller configurations.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="controllerNamespace">
+  <td><a href="CWebModule.html#controllerNamespace-detail">controllerNamespace</a></td>
+  <td>string</td>
+  <td>Namespace that should be used when loading controllers.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="controllerPath">
+  <td><a href="CWebModule.html#controllerPath-detail">controllerPath</a></td>
+  <td>string</td>
+  <td>the directory that contains the controller classes.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="defaultController">
+  <td><a href="CWebModule.html#defaultController-detail">defaultController</a></td>
+  <td>string</td>
+  <td>the ID of the default controller for this module.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="description">
+  <td><a href="CWebModule.html#description-detail">description</a></td>
+  <td>string</td>
+  <td>Returns the description of this module.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="id">
+  <td><a href="CModule.html#id-detail">id</a></td>
+  <td>string</td>
+  <td>Returns the module ID.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="layout">
+  <td><a href="CWebModule.html#layout-detail">layout</a></td>
+  <td>mixed</td>
+  <td>the layout that is shared by the controllers inside this module.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="layoutPath">
+  <td><a href="CWebModule.html#layoutPath-detail">layoutPath</a></td>
+  <td>string</td>
+  <td>the root directory of layout files.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr id="logTag">
+  <td><a href="MediaModule.html#logTag-detail">logTag</a></td>
+  <td></td>
+  <td></td>
+  <td>MediaModule</td>
+</tr>
+<tr class="inherited" id="modulePath">
+  <td><a href="CModule.html#modulePath-detail">modulePath</a></td>
+  <td>string</td>
+  <td>Returns the directory that contains the application modules.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="modules">
+  <td><a href="CModule.html#modules-detail">modules</a></td>
+  <td>array</td>
+  <td>Returns the configuration of the currently installed modules.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="name">
+  <td><a href="CWebModule.html#name-detail">name</a></td>
+  <td>string</td>
+  <td>Returns the name of this module.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="params">
+  <td><a href="CModule.html#params-detail">params</a></td>
+  <td><a href="CAttributeCollection.html">CAttributeCollection</a></td>
+  <td>Returns user-defined parameters.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="parentModule">
+  <td><a href="CModule.html#parentModule-detail">parentModule</a></td>
+  <td><a href="CModule.html">CModule</a></td>
+  <td>Returns the parent module.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="preload">
+  <td><a href="CModule.html#preload-detail">preload</a></td>
+  <td>array</td>
+  <td>the IDs of the application components that should be preloaded.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr id="tableCssClass">
+  <td><a href="MediaModule.html#tableCssClass-detail">tableCssClass</a></td>
+  <td></td>
+  <td></td>
+  <td>MediaModule</td>
+</tr>
+<tr class="inherited" id="version">
+  <td><a href="CWebModule.html#version-detail">version</a></td>
+  <td>string</td>
+  <td>Returns the version of this module.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="viewPath">
+  <td><a href="CWebModule.html#viewPath-detail">viewPath</a></td>
+  <td>string</td>
+  <td>the root directory of view files.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+</table>
+</div>
+<a name="methods"></a>
+
+<div class="summary docMethod">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-method" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr class="inherited" id="__call">
+  <td><a href="CComponent.html#__call-detail">__call()</a></td>
+  <td>Calls the named method which is not a class method.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="__construct">
+  <td><a href="CModule.html#__construct-detail">__construct()</a></td>
+  <td>Constructor.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="__get">
+  <td><a href="CModule.html#__get-detail">__get()</a></td>
+  <td>Getter magic method.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="__isset">
+  <td><a href="CModule.html#__isset-detail">__isset()</a></td>
+  <td>Checks if a property value is null.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="__set">
+  <td><a href="CComponent.html#__set-detail">__set()</a></td>
+  <td>Sets value of a component property.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="__unset">
+  <td><a href="CComponent.html#__unset-detail">__unset()</a></td>
+  <td>Sets a component property to be null.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="afterControllerAction">
+  <td><a href="CWebModule.html#afterControllerAction-detail">afterControllerAction()</a></td>
+  <td>The post-filter for controller actions.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="asa">
+  <td><a href="CComponent.html#asa-detail">asa()</a></td>
+  <td>Returns the named behavior object.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="attachBehavior">
+  <td><a href="CComponent.html#attachBehavior-detail">attachBehavior()</a></td>
+  <td>Attaches a behavior to this component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="attachBehaviors">
+  <td><a href="CComponent.html#attachBehaviors-detail">attachBehaviors()</a></td>
+  <td>Attaches a list of behaviors to the component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="attachEventHandler">
+  <td><a href="CComponent.html#attachEventHandler-detail">attachEventHandler()</a></td>
+  <td>Attaches an event handler to an event.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr id="beforeControllerAction">
+  <td><a href="MediaModule.html#beforeControllerAction-detail">beforeControllerAction()</a></td>
+  <td></td>
+  <td>MediaModule</td>
+</tr>
+<tr class="inherited" id="canGetProperty">
+  <td><a href="CComponent.html#canGetProperty-detail">canGetProperty()</a></td>
+  <td>Determines whether a property can be read.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="canSetProperty">
+  <td><a href="CComponent.html#canSetProperty-detail">canSetProperty()</a></td>
+  <td>Determines whether a property can be set.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="configure">
+  <td><a href="CModule.html#configure-detail">configure()</a></td>
+  <td>Configures the module with the specified configuration.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="detachBehavior">
+  <td><a href="CComponent.html#detachBehavior-detail">detachBehavior()</a></td>
+  <td>Detaches a behavior from the component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="detachBehaviors">
+  <td><a href="CComponent.html#detachBehaviors-detail">detachBehaviors()</a></td>
+  <td>Detaches all behaviors from the component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="detachEventHandler">
+  <td><a href="CComponent.html#detachEventHandler-detail">detachEventHandler()</a></td>
+  <td>Detaches an existing event handler.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="disableBehavior">
+  <td><a href="CComponent.html#disableBehavior-detail">disableBehavior()</a></td>
+  <td>Disables an attached behavior.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="disableBehaviors">
+  <td><a href="CComponent.html#disableBehaviors-detail">disableBehaviors()</a></td>
+  <td>Disables all behaviors attached to this component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="enableBehavior">
+  <td><a href="CComponent.html#enableBehavior-detail">enableBehavior()</a></td>
+  <td>Enables an attached behavior.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="enableBehaviors">
+  <td><a href="CComponent.html#enableBehaviors-detail">enableBehaviors()</a></td>
+  <td>Enables all behaviors attached to this component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="evaluateExpression">
+  <td><a href="CComponent.html#evaluateExpression-detail">evaluateExpression()</a></td>
+  <td>Evaluates a PHP expression or callback under the context of this component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr id="getAssetsUrl">
+  <td><a href="MediaModule.html#getAssetsUrl-detail">getAssetsUrl()</a></td>
+  <td></td>
+  <td>MediaModule</td>
+</tr>
+<tr class="inherited" id="getBasePath">
+  <td><a href="CModule.html#getBasePath-detail">getBasePath()</a></td>
+  <td>Returns the root directory of the module.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="getComponent">
+  <td><a href="CModule.html#getComponent-detail">getComponent()</a></td>
+  <td>Retrieves the named application component.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="getComponents">
+  <td><a href="CModule.html#getComponents-detail">getComponents()</a></td>
+  <td>Returns the application components.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="getControllerPath">
+  <td><a href="CWebModule.html#getControllerPath-detail">getControllerPath()</a></td>
+  <td>Returns the directory that contains the controller classes. Defaults to 'moduleDir/controllers' where
+moduleDir is the directory containing the module class.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="getDescription">
+  <td><a href="CWebModule.html#getDescription-detail">getDescription()</a></td>
+  <td>Returns the description of this module.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="getEventHandlers">
+  <td><a href="CComponent.html#getEventHandlers-detail">getEventHandlers()</a></td>
+  <td>Returns the list of attached event handlers for an event.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="getId">
+  <td><a href="CModule.html#getId-detail">getId()</a></td>
+  <td>Returns the module ID.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="getLayoutPath">
+  <td><a href="CWebModule.html#getLayoutPath-detail">getLayoutPath()</a></td>
+  <td>Returns the root directory of layout files. Defaults to 'moduleDir/views/layouts' where
+moduleDir is the directory containing the module class.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="getModule">
+  <td><a href="CModule.html#getModule-detail">getModule()</a></td>
+  <td>Retrieves the named application module.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="getModulePath">
+  <td><a href="CModule.html#getModulePath-detail">getModulePath()</a></td>
+  <td>Returns the directory that contains the application modules.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="getModules">
+  <td><a href="CModule.html#getModules-detail">getModules()</a></td>
+  <td>Returns the configuration of the currently installed modules.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="getName">
+  <td><a href="CWebModule.html#getName-detail">getName()</a></td>
+  <td>Returns the name of this module.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="getParams">
+  <td><a href="CModule.html#getParams-detail">getParams()</a></td>
+  <td>Returns user-defined parameters.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="getParentModule">
+  <td><a href="CModule.html#getParentModule-detail">getParentModule()</a></td>
+  <td>Returns the parent module.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="getVersion">
+  <td><a href="CWebModule.html#getVersion-detail">getVersion()</a></td>
+  <td>Returns the version of this module.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="getViewPath">
+  <td><a href="CWebModule.html#getViewPath-detail">getViewPath()</a></td>
+  <td>Returns the root directory of view files. Defaults to 'moduleDir/views' where
+moduleDir is the directory containing the module class.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="hasComponent">
+  <td><a href="CModule.html#hasComponent-detail">hasComponent()</a></td>
+  <td>Checks whether the named component exists.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="hasEvent">
+  <td><a href="CComponent.html#hasEvent-detail">hasEvent()</a></td>
+  <td>Determines whether an event is defined.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="hasEventHandler">
+  <td><a href="CComponent.html#hasEventHandler-detail">hasEventHandler()</a></td>
+  <td>Checks whether the named event has attached handlers.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="hasModule">
+  <td><a href="CModule.html#hasModule-detail">hasModule()</a></td>
+  <td>Returns a value indicating whether the specified module is installed.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="hasProperty">
+  <td><a href="CComponent.html#hasProperty-detail">hasProperty()</a></td>
+  <td>Determines whether a property is defined.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr id="init">
+  <td><a href="MediaModule.html#init-detail">init()</a></td>
+  <td></td>
+  <td>MediaModule</td>
+</tr>
+<tr class="inherited" id="raiseEvent">
+  <td><a href="CComponent.html#raiseEvent-detail">raiseEvent()</a></td>
+  <td>Raises an event.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="setAliases">
+  <td><a href="CModule.html#setAliases-detail">setAliases()</a></td>
+  <td>Defines the root aliases.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="setBasePath">
+  <td><a href="CModule.html#setBasePath-detail">setBasePath()</a></td>
+  <td>Sets the root directory of the module.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="setComponent">
+  <td><a href="CModule.html#setComponent-detail">setComponent()</a></td>
+  <td>Puts a component under the management of the module.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="setComponents">
+  <td><a href="CModule.html#setComponents-detail">setComponents()</a></td>
+  <td>Sets the application components.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="setControllerPath">
+  <td><a href="CWebModule.html#setControllerPath-detail">setControllerPath()</a></td>
+  <td>Sets the directory that contains the controller classes.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="setId">
+  <td><a href="CModule.html#setId-detail">setId()</a></td>
+  <td>Sets the module ID.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="setImport">
+  <td><a href="CModule.html#setImport-detail">setImport()</a></td>
+  <td>Sets the aliases that are used in the module.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="setLayoutPath">
+  <td><a href="CWebModule.html#setLayoutPath-detail">setLayoutPath()</a></td>
+  <td>Sets the root directory of layout files.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+<tr class="inherited" id="setModulePath">
+  <td><a href="CModule.html#setModulePath-detail">setModulePath()</a></td>
+  <td>Sets the directory that contains the application modules.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="setModules">
+  <td><a href="CModule.html#setModules-detail">setModules()</a></td>
+  <td>Configures the sub-modules of this module.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="setParams">
+  <td><a href="CModule.html#setParams-detail">setParams()</a></td>
+  <td>Sets user-defined parameters.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="setViewPath">
+  <td><a href="CWebModule.html#setViewPath-detail">setViewPath()</a></td>
+  <td>Sets the root directory of view files.</td>
+  <td><a href="CWebModule.html">CWebModule</a></td>
+</tr>
+</table>
+</div>
+<div class="summary docMethod">
+<h2>Protected Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-method" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr class="inherited" id="preinit">
+  <td><a href="CModule.html#preinit-detail">preinit()</a></td>
+  <td>Preinitializes the module.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+<tr class="inherited" id="preloadComponents">
+  <td><a href="CModule.html#preloadComponents-detail">preloadComponents()</a></td>
+  <td>Loads static application components.</td>
+  <td><a href="CModule.html">CModule</a></td>
+</tr>
+</table>
+</div>
+<a name="events"></a>
+
+<h2>Property Details</h2>
+<div class="detailHeader" id="assetsUrl-detail">
+assetsUrl<span class="detailHeaderTag">
+property
+ <em>read-only</em> </span>
+</div>
+
+<div class="signature">
+public void <a href="MediaModule.html#getAssetsUrl"><b>getAssetsUrl</b></a>()</div>
+
+<p></p>
+
+
+<div class="detailHeader" id="baseDir-detail">
+baseDir<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public <b>$baseDir</b>;</div>
+
+<p></p>
+
+
+<div class="detailHeader" id="logTag-detail">
+logTag<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public <b>$logTag</b>;</div>
+
+<p></p>
+
+
+<div class="detailHeader" id="tableCssClass-detail">
+tableCssClass<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public <b>$tableCssClass</b>;</div>
+
+<p></p>
+
+
+<h2>Method Details</h2>
+
+<div class="detailHeader" id="beforeControllerAction-detail">
+beforeControllerAction()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>beforeControllerAction</b>($controller, $action)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$controller</td>
+  <td class="paramTypeCol"></td>
+  <td class="paramDescCol"></td>
+</tr>
+<tr>
+  <td class="paramNameCol">$action</td>
+  <td class="paramTypeCol"></td>
+  <td class="paramDescCol"></td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/modules/media/MediaModule.php#58 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">beforeControllerAction</span><span style="color: #007700">(</span><span style="color: #0000BB">$controller</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$action</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">parent</span><span style="color: #007700">::</span><span style="color: #0000BB">beforeControllerAction</span><span style="color: #007700">(</span><span style="color: #0000BB">$controller</span><span style="color: #007700">,&nbsp;</span><span style="color: #0000BB">$action</span><span style="color: #007700">))<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;this&nbsp;method&nbsp;is&nbsp;called&nbsp;before&nbsp;any&nbsp;module&nbsp;controller&nbsp;action&nbsp;is&nbsp;performed<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;you&nbsp;may&nbsp;place&nbsp;customized&nbsp;code&nbsp;here<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #007700">return&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">;<br />}&nbsp;</span><span style="color: #FF8000">//&nbsp;}}}</span>
+</span>
+</code></div>
+</div>
+<p></p>
+
+
+<div class="detailHeader" id="getAssetsUrl-detail">
+getAssetsUrl()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>getAssetsUrl</b>()</div>
+</td></tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/modules/media/MediaModule.php#50 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">getAssetsUrl</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;if&nbsp;(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_assetsUrl&nbsp;</span><span style="color: #007700">===&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_assetsUrl&nbsp;</span><span style="color: #007700">=&nbsp;</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">app</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">getAssetManager</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">publish</span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">getPathOfAlias</span><span style="color: #007700">(</span><span style="color: #DD0000">'media.assets'</span><span style="color: #007700">)&nbsp;);<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_assetsUrl</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p></p>
+
+
+<div class="detailHeader" id="init-detail">
+init()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>init</b>()</div>
+</td></tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/modules/media/MediaModule.php#30 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">init</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">log</span><span style="color: #007700">(</span><span style="color: #DD0000">"Media&nbsp;Module&nbsp;init"</span><span style="color: #007700">,&nbsp;</span><span style="color: #DD0000">'info'</span><span style="color: #007700">,</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">logTag</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//&nbsp;this&nbsp;method&nbsp;is&nbsp;called&nbsp;when&nbsp;the&nbsp;module&nbsp;is&nbsp;being&nbsp;created<br />&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;you&nbsp;may&nbsp;place&nbsp;code&nbsp;here&nbsp;to&nbsp;customize&nbsp;the&nbsp;module&nbsp;or&nbsp;the&nbsp;application<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;//&nbsp;import&nbsp;the&nbsp;module-level&nbsp;models&nbsp;and&nbsp;components<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">setImport</span><span style="color: #007700">(array(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'media.models.*'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'media.components.*'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;));<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//register&nbsp;translation&nbsp;messages&nbsp;from&nbsp;module&nbsp;dbadmin<br />&nbsp;&nbsp;&nbsp;&nbsp;//so&nbsp;no&nbsp;need&nbsp;do&nbsp;add&nbsp;to&nbsp;config/main.php<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">app</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">setComponents</span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array(</span><span style="color: #DD0000">'messages'&nbsp;</span><span style="color: #007700">=&gt;&nbsp;array(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'class'</span><span style="color: #007700">=&gt;</span><span style="color: #DD0000">'CPhpMessageSource'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'basePath'</span><span style="color: #007700">=&gt;</span><span style="color: #DD0000">'protected/modules/media/messages'</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;)));<br />&nbsp;&nbsp;&nbsp;&nbsp;<br />}&nbsp;</span><span style="color: #FF8000">//&nbsp;}}}</span>
+</span>
+</code></div>
+</div>
+<p></p>
+
+
+</div><!-- end of content -->
+
+<div id="apiFooter">
+Copyright &copy; 2008-2011 by <a href="http://www.yiisoft.com">Yii Software LLC</a><br/>
+All Rights Reserved.<br/>
+</div><!-- end of footer -->
+
+<script type="text/javascript">
+/*<![CDATA[*/
+$("a.toggle").toggle(function(){
+	$(this).text($(this).text().replace(/Hide/,'Show'));
+	$(this).parents(".summary").find(".inherited").hide();
+},function(){
+	$(this).text($(this).text().replace(/Show/,'Hide'));
+	$(this).parents(".summary").find(".inherited").show();
+});
+$(".sourceCode a.show").toggle(function(){
+	$(this).text($(this).text().replace(/show/,'hide'));
+	$(this).parents(".sourceCode").find("div.code").show();
+},function(){
+	$(this).text($(this).text().replace(/hide/,'show'));
+	$(this).parents(".sourceCode").find("div.code").hide();
+});
+$("a.sourceLink").click(function(){
+	$(this).attr('target','_blank');
+});
+/*]]>*/
+</script>
+
+</div><!-- end of page -->
+</body>
+</html>

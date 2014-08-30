@@ -1,0 +1,427 @@
+
+<!-- saved from url=(0060)http://www.cakesnflowers.com/receipt.aspx?ordernumber=136011 -->
+<html xmlns:aspdnsf="urn:aspdnsf" xmlns:msxsl="urn:schemas-microsoft-com:xslt"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>CakesnflowersReceipt</title>
+  </head>
+  <body>
+<style type="text/css">
+body 
+{
+	font-family:Arial, Tahoma, verdana,Helvetica,sans-serif;
+	font-size:12px;
+	margin:4em 2em 4em 2em;
+}
+
+table
+{
+	font-size:12px;
+}
+
+#divContents
+{
+	width:630px;
+}
+
+#tblAddressInfo td
+{
+	width:50%;
+	text-align:left;
+	vertical-align:top;
+}
+
+#tblOrderInfo
+{
+	border:solid 1px black;
+	/*font-size:small;*/
+	width:100%;
+}
+
+#tblOrderInfo td
+{
+	text-align:left;
+	vertical-align:top;
+	/*border:solid 1px black;*/
+}
+
+#tblOrderInfo .tdOrderInfoLabel
+{
+	font-weight:bold;
+	width:15%
+}
+
+#tblOrderInfo .tdOrderInfoValue
+{
+	width:35%
+}
+
+#tblLineItems
+{
+	text-align:left;
+	/*font-size:small;*/
+	width:100%;
+}
+
+#tblLineItems td
+{
+	/*line-height:20px;*/
+	vertical-align:top;
+}
+
+#tblLineItems .tdLineItemHeader
+{
+	color: White;
+	background-color: #003366;
+	font-weight: bold;
+	border:solid 1px #777777;
+	text-align:center;
+}
+
+#tblLineItems .tdLineItem
+{
+}
+
+#tblOrderHeader
+{
+	font-weight:bold;
+	font-size:15px;
+}
+.tdOrderHeaderLabel
+{
+	text-align:right;
+	vertical-align:top;
+}
+
+.tdOrderHeaderValue
+{
+	padding-left:1em;
+	text-align:left;
+	vertical-align:top;
+}
+
+#lblOrderNumber
+{
+	/*font-size:large;*/
+	font-weight:bolder;
+}
+
+#colSKU
+{
+	font-weight:bold;
+	padding-left:1em;
+	text-align:left;
+}
+
+#colProductName
+{
+	padding-left:1em;
+}
+
+#colQuantity
+{
+	font-weight:bold;
+	text-align:center;
+}
+
+#colPrice
+{
+	font-weight:bold;
+	text-align:right;
+	padding-right:1em;
+}
+
+#colDiscount
+{
+	font-weight:bold;
+	text-align:right;
+	padding-right:1em;
+}
+
+#colExtPrice
+{
+	font-weight:bold;
+	text-align:right;
+	padding-right:1em;
+}
+
+.colTextOrNotes
+{
+	padding-left:1em;
+}
+
+#lblProductName
+{
+	font-weight:bold;
+}
+
+.pnlTextOption
+{
+	font-size:smaller;
+}
+
+.textOptionPrompt
+{
+	font-weight:bold;	
+}
+
+.textOption
+{
+}
+
+.vatLabel
+{
+	font-weight:normal;
+}
+
+.discountLabel
+{
+	font-weight:normal;
+}
+
+.shipToAddressLabel
+{
+	font-weight:bold;
+}
+
+.shipToAddress
+{
+	/*font-style:italic;*/
+}
+
+.shipToAddressShippingMethodLabel
+{
+	font-weight:bold;
+}
+
+.shipToAddressShippingMethod
+{
+}
+
+#lblBillTo
+{
+	font-weight:bold;
+}
+
+#lblNotes
+{
+	font-weight:bold;
+}
+
+.pnlItemNotes
+{
+	font-size:smaller;
+}
+
+.itemNotesPrompt
+{
+	font-weight:bold;
+}
+
+.itemNotes
+{
+	/*text-indent:2em;*/
+}
+/*
+.kitItems
+{
+	text-indent:2em;
+}
+*/
+
+#tblSummary
+{
+	width:100%;
+	border-top:solid 1px black;
+}
+
+#tdSummaryNotes
+{
+	text-align:left;
+	vertical-align:top;
+	width:50%;
+}
+
+#tdOrderSummary
+{
+	text-align:left;
+	vertical-align:top;
+	width:50%;
+}
+
+#tblOrderSummary
+{
+	width:100%;
+}
+
+.tdOrderSummaryLabel
+{
+	text-align:right;
+	vertical-align:top;
+	width:40%;
+	font-weight:bold;
+}
+
+.tdOrderSummaryValue
+{
+	text-align:right;
+	vertical-align:top;
+	width:40%;
+}
+
+.tdOrderSummaryMisc
+{
+	padding-left:1em;
+	text-align:left;
+	vertical-align:top;
+	width:30%;
+}
+
+.pnlPackDetail
+{
+	font-size:smaller;
+}
+
+.pnlKitDetail
+{
+	font-size:smaller;
+}
+
+.pnlKitItemImage
+{
+	padding-left:1em;
+}
+
+.pnlGiftCardSerialNumber
+{
+	font-size:smaller;
+}
+
+.pnlNoShippingRequired
+{
+	font-size:smaller;
+}
+
+#tblLineItems ul
+{
+	font-size:smaller;
+	list-style:circle none outside;
+	margin:0;
+	padding-left:2em;
+}
+
+.spacerBorder
+{
+	border-top: solid 1px #CCC;
+}
+
+#tblMultiShipAddress
+{
+	outline-color:Gray;
+}
+
+.lblMultiShipAddress
+{
+	background:#f0ffff;
+	
+}
+</style>
+<div style="width:630px">
+      <p align="center"><b><font size="3">Cakesnflowers&nbsp;Receipt</font><br><font size="1">*** PLEASE PRINT RECEIPT OUT AND RETAIN IT FOR FUTURE REFERENCE ***</font></b></p>
+      <table width="100%">
+        <tbody><tr>
+          <td width="50%">
+              &nbsp;
+						</td>
+          <td width="50%">
+            <table width="100%" style="font-weight:bold; font-size:15px">
+              <tbody><tr>
+                <td style="text-align:right; vertical-align:top"><span style="font-weight:bolder">Order Number</span></td>
+                <td style="padding-left:1em; text-align:left; vertical-align:top"><span style="font-weight:bolder">CNF136011</span></td>
+              </tr>
+              <tr>
+                <td style="text-align:right; vertical-align:top">Customer ID</td>
+                <td style="padding-left:1em; text-align:left; vertical-align:top">105779</td>
+              </tr>
+              <tr>
+                <td style="text-align:right; vertical-align:top">Order Date</td>
+                <td style="padding-left:1em; text-align:left; vertical-align:top">6/12/2014 7:27:35 AM</td>
+              </tr>
+              <tr>
+                <td style="text-align:right; vertical-align:top">Delivery date</td>
+                <td style="padding-left:1em; text-align:left; vertical-align:top">6/12/2014</td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+      </tbody></table><br><table width="100%">
+        <tbody><tr>
+          <td><span style="font-weight:bold; width:50%; text-align:left; vertical-align:top">Bill To:</span><div>vishnu priya&nbsp;Matha<br>Hostel 10,IIt powai<br>Bombay,&nbsp;MH&nbsp;673601<br>India<br>7736217996<br>mvpnov1994@gmail.com<br></div>
+          </td>
+          <td><span style="font-weight:bold; width:50%; text-align:left; vertical-align:top">Ship To:</span><div>Surya Harsha&nbsp;nunnaguppala<br>room 101,Sri lasya mens hostel,Plot 32,33,34<br>Cyber hills colony<br>hyderabad,&nbsp;AP&nbsp;500081<br>India<br>9037535375<br></div>
+          </td>
+        </tr>
+      </tbody></table><br><table style="border:solid 1px black; width:100%"><tbody><tr><td style="font-weight:bold; width:15%">Order Date:</td>
+        <td style="width:35%">6/12/2014 7:27:35 AM</td>
+        <td style="font-weight:bold; width:15%">Locale/Currency:</td>
+        <td style="width:35%">en-US&nbsp;/&nbsp;INR</td></tr><tr><td style="font-weight:bold; width:15%">Payment Method:</td>
+        <td style="width:35%">CREDITCARD</td>
+        <td style="font-weight:bold; width:15%">Name On Card:</td>
+        <td style="width:35%">vishnu priya Matha</td></tr><tr><td style="font-weight:bold; width:15%">Card Type:</td>
+        <td style="width:35%">
+        </td>
+        <td style="font-weight:bold; width:15%">Card Number:</td>
+        <td style="width:35%">****</td></tr></tbody></table><br><table style="text-align:left; width:100%" cellspacing="0" cellpadding="0">
+        <tbody><tr>
+          <td width="10%" style="text-align:left;padding-left:1em;border-bottom-style:none; color: White; background-color: #003366; font-weight: bold; border:solid 1px #777777">SKU:</td>
+          <td width="50%" style="text-align:left;padding-left:1em;border-left-style:none;border-bottom-style:none; color: White; background-color: #003366; font-weight: bold; border:solid 1px #777777">Product<br></td>
+          <td width="10%" style="border-left-style:none;border-bottom-style:none; color: White; background-color: #003366; font-weight: bold; border:solid 1px #777777; text-align:center">Quantity</td>
+          <td width="10%" style="border-left-style:none;border-bottom-style:none; color: White; background-color: #003366; font-weight: bold; border:solid 1px #777777; text-align:center">Price</td>
+          <td width="20%" style="border-left-style:none;border-bottom-style:none; color: White; background-color: #003366; font-weight: bold; border:solid 1px #777777; text-align:center">Ext. Price</td>
+        </tr>
+        <tr>
+          <td colspan="6"><br></td>
+        </tr>
+        <tr>
+          <td width="10%" style="font-weight:bold; padding-left:1em; text-align:left">xls13-v1</td>
+          <td width="50%" style="padding-left:1em"><span style="font-weight:bold">Black Forest-V1</span><br><div style="font-size:smaller"><span style="font-weight:bold">(Quantity Defines Weight of the cake in Kgs) &lt;br&gt; &lt;br&gt; Message on cake:&nbsp;</span>happy birthday heroo :*</div>
+          </td>
+          <td width="10%" style="font-weight:bold; text-align:center">1</td>
+          <td width="10%" style="font-weight:bold; text-align:right; padding-right:1em">Rs  799.00</td>
+          <td width="20%" style="font-weight:bold; text-align:right; padding-right:1em">Rs  799.00</td>
+        </tr>
+        <tr>
+          <td colspan="6"><br></td>
+        </tr>
+      </tbody></table><br><br><table style="width:100%; border-top:solid 1px black">
+        <tbody><tr>
+          <td style="text-align:left; vertical-align:top; width:50%">
+            <div><span style="font-weight:bold">Order Notes:</span></div>
+            <div>None</div><br></td>
+          <td style="text-align:left; vertical-align:top; width:50%">
+            <table width="100%">
+              <tbody><tr>
+                <td style="text-align:right; vertical-align:top; width:40%; font-weight:bold;">SubTotal:</td>
+                <td style="padding-left:1em; text-align:left; vertical-align:top; width:30%"></td>
+                <td style="text-align:right; vertical-align:top; width:40%">Rs  799.00</td>
+              </tr>
+              <tr>
+                <td style="text-align:right; vertical-align:top; width:40%; font-weight:bold;">Shipping:</td>
+                <td style="padding-left:1em; text-align:left; vertical-align:top; width:30%">Mid Night Delivery 11:00 PM to 12:15 AM</td>
+                <td style="text-align:right; vertical-align:top; width:40%">Rs  300.00</td>
+              </tr>
+              <tr>
+                <td style="text-align:right; vertical-align:top; width:40%; font-weight:bold;">Tax:</td>
+                <td style="padding-left:1em; text-align:left; vertical-align:top; width:30%"></td>
+                <td style="text-align:right; vertical-align:top; width:40%">Rs  0.00</td>
+              </tr>
+              <tr>
+                <td style="text-align:right; vertical-align:top; width:40%; font-weight:bold;">Total:</td>
+                <td style="padding-left:1em; text-align:left; vertical-align:top; width:30%"></td>
+                <td style="text-align:right; vertical-align:top; width:40%">Rs  1,099.00</td>
+              </tr>
+            </tbody></table>
+          </td>
+        </tr>
+      </tbody></table><br><br><font face="Verdana">Regular Shipping Delivery Timings: 10:00 am TO 8:00pm Any Time&nbsp;</font><div><font face="Verdana"><br></font></div><div><span style="font-size: 11px; color: rgb(68, 68, 68); font-weight: bold; "><font face="Verdana">Please do contact us for any queries +91-9866637773 (India)</font></span><br></div></div>
+  
+</body></html>

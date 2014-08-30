@@ -1,0 +1,1731 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="language" content="en" />
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/api.css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<title>NestedSetBehavior</title>
+</head>
+
+<body>
+<div id="apiPage">
+
+<div id="apiHeader">
+My Console Application Class Reference
+</div><!-- end of header -->
+
+<div id="content">
+<h1>NestedSetBehavior</h1>
+<div id="nav">
+<a href="index.html">All Packages</a>
+| <a href="#properties">Properties</a>
+| <a href="#methods">Methods</a>
+</div>
+
+<table class="summaryTable docClass">
+<colgroup>
+	<col class="col-name" />
+	<col class="col-value" />
+</colgroup>
+<tr>
+  <th>Package</th>
+  <td><a href="index.html#yiiext.behaviors.model.trees">yiiext.behaviors.model.trees</a></td>
+</tr>
+<tr>
+  <th>Inheritance</th>
+  <td>class NestedSetBehavior &raquo;
+<a href="CActiveRecordBehavior.html">CActiveRecordBehavior</a> &raquo;
+<a href="CModelBehavior.html">CModelBehavior</a> &raquo;
+<a href="CBehavior.html">CBehavior</a> &raquo;
+<a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr>
+  <th>Implements</th>
+  <td><a href="IBehavior.html">IBehavior</a></td>
+</tr>
+<tr>
+  <th>Version</th>
+  <td>1.05</td>
+</tr>
+<tr>
+  <th>Source Code</th>
+  <td>app/behaviors/NestedSetBehavior.php</td>
+</tr>
+</table>
+
+<div id="classDescription">
+Provides nested set functionality for a model.</div>
+<a name="properties"></a>
+
+<div class="summary docProperty">
+<h2>Public Properties</h2>
+
+<p><a href="#" class="toggle">Hide inherited properties</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-property" />
+	<col class="col-type" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Property</th><th>Type</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr class="inherited" id="enabled">
+  <td><a href="CBehavior.html#enabled-detail">enabled</a></td>
+  <td>boolean</td>
+  <td>whether this behavior is enabled</td>
+  <td><a href="CBehavior.html">CBehavior</a></td>
+</tr>
+<tr id="hasManyRoots">
+  <td><a href="NestedSetBehavior.html#hasManyRoots-detail">hasManyRoots</a></td>
+  <td></td>
+  <td></td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="isDeletedRecord">
+  <td><a href="NestedSetBehavior.html#isDeletedRecord-detail">isDeletedRecord</a></td>
+  <td>boolean</td>
+  <td>Returns if the current node is deleted.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="leftAttribute">
+  <td><a href="NestedSetBehavior.html#leftAttribute-detail">leftAttribute</a></td>
+  <td></td>
+  <td></td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="levelAttribute">
+  <td><a href="NestedSetBehavior.html#levelAttribute-detail">levelAttribute</a></td>
+  <td></td>
+  <td></td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="nextSibling">
+  <td><a href="NestedSetBehavior.html#nextSibling-detail">nextSibling</a></td>
+  <td><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td>Gets record of next sibling.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr class="inherited" id="owner">
+  <td><a href="CBehavior.html#owner-detail">owner</a></td>
+  <td><a href="CComponent.html">CComponent</a></td>
+  <td>the owner component that this behavior is attached to.</td>
+  <td><a href="CBehavior.html">CBehavior</a></td>
+</tr>
+<tr id="parent">
+  <td><a href="NestedSetBehavior.html#parent-detail">parent</a></td>
+  <td><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td>Gets record of node parent.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="prevSibling">
+  <td><a href="NestedSetBehavior.html#prevSibling-detail">prevSibling</a></td>
+  <td><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td>Gets record of previous sibling.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="rightAttribute">
+  <td><a href="NestedSetBehavior.html#rightAttribute-detail">rightAttribute</a></td>
+  <td></td>
+  <td></td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="rootAttribute">
+  <td><a href="NestedSetBehavior.html#rootAttribute-detail">rootAttribute</a></td>
+  <td></td>
+  <td></td>
+  <td>NestedSetBehavior</td>
+</tr>
+</table>
+</div>
+<a name="methods"></a>
+
+<div class="summary docMethod">
+<h2>Public Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-method" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr class="inherited" id="__call">
+  <td><a href="CComponent.html#__call-detail">__call()</a></td>
+  <td>Calls the named method which is not a class method.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr id="__destruct">
+  <td><a href="NestedSetBehavior.html#__destruct-detail">__destruct()</a></td>
+  <td>Destructor.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr class="inherited" id="__get">
+  <td><a href="CComponent.html#__get-detail">__get()</a></td>
+  <td>Returns a property value, an event handler list or a behavior based on its name.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="__isset">
+  <td><a href="CComponent.html#__isset-detail">__isset()</a></td>
+  <td>Checks if a property value is null.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="__set">
+  <td><a href="CComponent.html#__set-detail">__set()</a></td>
+  <td>Sets value of a component property.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="__unset">
+  <td><a href="CComponent.html#__unset-detail">__unset()</a></td>
+  <td>Sets a component property to be null.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr id="afterConstruct">
+  <td><a href="NestedSetBehavior.html#afterConstruct-detail">afterConstruct()</a></td>
+  <td>Handle 'afterConstruct' event of the owner.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="afterFind">
+  <td><a href="NestedSetBehavior.html#afterFind-detail">afterFind()</a></td>
+  <td>Handle 'afterFind' event of the owner.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="ancestors">
+  <td><a href="NestedSetBehavior.html#ancestors-detail">ancestors()</a></td>
+  <td>Named scope. Gets ancestors for node.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="append">
+  <td><a href="NestedSetBehavior.html#append-detail">append()</a></td>
+  <td>Appends target to node as last child.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="appendTo">
+  <td><a href="NestedSetBehavior.html#appendTo-detail">appendTo()</a></td>
+  <td>Appends node to target as last child.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr class="inherited" id="asa">
+  <td><a href="CComponent.html#asa-detail">asa()</a></td>
+  <td>Returns the named behavior object.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="attach">
+  <td><a href="CBehavior.html#attach-detail">attach()</a></td>
+  <td>Attaches the behavior object to the component.</td>
+  <td><a href="CBehavior.html">CBehavior</a></td>
+</tr>
+<tr class="inherited" id="attachBehavior">
+  <td><a href="CComponent.html#attachBehavior-detail">attachBehavior()</a></td>
+  <td>Attaches a behavior to this component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="attachBehaviors">
+  <td><a href="CComponent.html#attachBehaviors-detail">attachBehaviors()</a></td>
+  <td>Attaches a list of behaviors to the component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="attachEventHandler">
+  <td><a href="CComponent.html#attachEventHandler-detail">attachEventHandler()</a></td>
+  <td>Attaches an event handler to an event.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr id="beforeDelete">
+  <td><a href="NestedSetBehavior.html#beforeDelete-detail">beforeDelete()</a></td>
+  <td>Handle 'beforeDelete' event of the owner.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="beforeSave">
+  <td><a href="NestedSetBehavior.html#beforeSave-detail">beforeSave()</a></td>
+  <td>Handle 'beforeSave' event of the owner.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr class="inherited" id="canGetProperty">
+  <td><a href="CComponent.html#canGetProperty-detail">canGetProperty()</a></td>
+  <td>Determines whether a property can be read.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="canSetProperty">
+  <td><a href="CComponent.html#canSetProperty-detail">canSetProperty()</a></td>
+  <td>Determines whether a property can be set.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr id="children">
+  <td><a href="NestedSetBehavior.html#children-detail">children()</a></td>
+  <td>Named scope. Gets children for node (direct descendants only).</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="delete">
+  <td><a href="NestedSetBehavior.html#delete-detail">delete()</a></td>
+  <td>Deletes node and it's descendants.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="deleteNode">
+  <td><a href="NestedSetBehavior.html#deleteNode-detail">deleteNode()</a></td>
+  <td>Deletes node and it's descendants.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="descendants">
+  <td><a href="NestedSetBehavior.html#descendants-detail">descendants()</a></td>
+  <td>Named scope. Gets descendants for node.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr class="inherited" id="detach">
+  <td><a href="CBehavior.html#detach-detail">detach()</a></td>
+  <td>Detaches the behavior object from the component.</td>
+  <td><a href="CBehavior.html">CBehavior</a></td>
+</tr>
+<tr class="inherited" id="detachBehavior">
+  <td><a href="CComponent.html#detachBehavior-detail">detachBehavior()</a></td>
+  <td>Detaches a behavior from the component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="detachBehaviors">
+  <td><a href="CComponent.html#detachBehaviors-detail">detachBehaviors()</a></td>
+  <td>Detaches all behaviors from the component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="detachEventHandler">
+  <td><a href="CComponent.html#detachEventHandler-detail">detachEventHandler()</a></td>
+  <td>Detaches an existing event handler.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="disableBehavior">
+  <td><a href="CComponent.html#disableBehavior-detail">disableBehavior()</a></td>
+  <td>Disables an attached behavior.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="disableBehaviors">
+  <td><a href="CComponent.html#disableBehaviors-detail">disableBehaviors()</a></td>
+  <td>Disables all behaviors attached to this component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="enableBehavior">
+  <td><a href="CComponent.html#enableBehavior-detail">enableBehavior()</a></td>
+  <td>Enables an attached behavior.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="enableBehaviors">
+  <td><a href="CComponent.html#enableBehaviors-detail">enableBehaviors()</a></td>
+  <td>Enables all behaviors attached to this component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="evaluateExpression">
+  <td><a href="CComponent.html#evaluateExpression-detail">evaluateExpression()</a></td>
+  <td>Evaluates a PHP expression or callback under the context of this component.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="events">
+  <td><a href="CActiveRecordBehavior.html#events-detail">events()</a></td>
+  <td>Declares events and the corresponding event handler methods.</td>
+  <td><a href="CActiveRecordBehavior.html">CActiveRecordBehavior</a></td>
+</tr>
+<tr class="inherited" id="getEnabled">
+  <td><a href="CBehavior.html#getEnabled-detail">getEnabled()</a></td>
+  <td>Returns whether this behavior is enabled</td>
+  <td><a href="CBehavior.html">CBehavior</a></td>
+</tr>
+<tr class="inherited" id="getEventHandlers">
+  <td><a href="CComponent.html#getEventHandlers-detail">getEventHandlers()</a></td>
+  <td>Returns the list of attached event handlers for an event.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr id="getIsDeletedRecord">
+  <td><a href="NestedSetBehavior.html#getIsDeletedRecord-detail">getIsDeletedRecord()</a></td>
+  <td>Returns if the current node is deleted.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="getNextSibling">
+  <td><a href="NestedSetBehavior.html#getNextSibling-detail">getNextSibling()</a></td>
+  <td>Gets record of next sibling.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr class="inherited" id="getOwner">
+  <td><a href="CBehavior.html#getOwner-detail">getOwner()</a></td>
+  <td>Returns the owner component that this behavior is attached to.</td>
+  <td><a href="CBehavior.html">CBehavior</a></td>
+</tr>
+<tr id="getParent">
+  <td><a href="NestedSetBehavior.html#getParent-detail">getParent()</a></td>
+  <td>Gets record of node parent.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="getPrevSibling">
+  <td><a href="NestedSetBehavior.html#getPrevSibling-detail">getPrevSibling()</a></td>
+  <td>Gets record of previous sibling.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr class="inherited" id="hasEvent">
+  <td><a href="CComponent.html#hasEvent-detail">hasEvent()</a></td>
+  <td>Determines whether an event is defined.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="hasEventHandler">
+  <td><a href="CComponent.html#hasEventHandler-detail">hasEventHandler()</a></td>
+  <td>Checks whether the named event has attached handlers.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr class="inherited" id="hasProperty">
+  <td><a href="CComponent.html#hasProperty-detail">hasProperty()</a></td>
+  <td>Determines whether a property is defined.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr id="insertAfter">
+  <td><a href="NestedSetBehavior.html#insertAfter-detail">insertAfter()</a></td>
+  <td>Inserts node as next sibling of target.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="insertBefore">
+  <td><a href="NestedSetBehavior.html#insertBefore-detail">insertBefore()</a></td>
+  <td>Inserts node as previous sibling of target.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="isDescendantOf">
+  <td><a href="NestedSetBehavior.html#isDescendantOf-detail">isDescendantOf()</a></td>
+  <td>Determines if node is descendant of subject node.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="isLeaf">
+  <td><a href="NestedSetBehavior.html#isLeaf-detail">isLeaf()</a></td>
+  <td>Determines if node is leaf.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="isRoot">
+  <td><a href="NestedSetBehavior.html#isRoot-detail">isRoot()</a></td>
+  <td>Determines if node is root.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="moveAfter">
+  <td><a href="NestedSetBehavior.html#moveAfter-detail">moveAfter()</a></td>
+  <td>Move node as next sibling of target.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="moveAsFirst">
+  <td><a href="NestedSetBehavior.html#moveAsFirst-detail">moveAsFirst()</a></td>
+  <td>Move node as first child of target.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="moveAsLast">
+  <td><a href="NestedSetBehavior.html#moveAsLast-detail">moveAsLast()</a></td>
+  <td>Move node as last child of target.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="moveAsRoot">
+  <td><a href="NestedSetBehavior.html#moveAsRoot-detail">moveAsRoot()</a></td>
+  <td>Move node as new root.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="moveBefore">
+  <td><a href="NestedSetBehavior.html#moveBefore-detail">moveBefore()</a></td>
+  <td>Move node as previous sibling of target.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="prepend">
+  <td><a href="NestedSetBehavior.html#prepend-detail">prepend()</a></td>
+  <td>Prepends target to node as first child.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="prependTo">
+  <td><a href="NestedSetBehavior.html#prependTo-detail">prependTo()</a></td>
+  <td>Prepends node to target as first child.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr class="inherited" id="raiseEvent">
+  <td><a href="CComponent.html#raiseEvent-detail">raiseEvent()</a></td>
+  <td>Raises an event.</td>
+  <td><a href="CComponent.html">CComponent</a></td>
+</tr>
+<tr id="roots">
+  <td><a href="NestedSetBehavior.html#roots-detail">roots()</a></td>
+  <td>Named scope. Gets root node(s).</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="save">
+  <td><a href="NestedSetBehavior.html#save-detail">save()</a></td>
+  <td>Create root node if multiple-root tree mode. Update node if it's not new.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr id="saveNode">
+  <td><a href="NestedSetBehavior.html#saveNode-detail">saveNode()</a></td>
+  <td>Create root node if multiple-root tree mode. Update node if it's not new.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+<tr class="inherited" id="setEnabled">
+  <td><a href="CBehavior.html#setEnabled-detail">setEnabled()</a></td>
+  <td>Sets whether this behavior is enabled</td>
+  <td><a href="CBehavior.html">CBehavior</a></td>
+</tr>
+<tr id="setIsDeletedRecord">
+  <td><a href="NestedSetBehavior.html#setIsDeletedRecord-detail">setIsDeletedRecord()</a></td>
+  <td>Sets if the current node is deleted.</td>
+  <td>NestedSetBehavior</td>
+</tr>
+</table>
+</div>
+<div class="summary docMethod">
+<h2>Protected Methods</h2>
+
+<p><a href="#" class="toggle">Hide inherited methods</a></p>
+
+<table class="summaryTable">
+<colgroup>
+	<col class="col-method" />
+	<col class="col-description" />
+	<col class="col-defined" />
+</colgroup>
+<tr>
+  <th>Method</th><th>Description</th><th>Defined By</th>
+</tr>
+<tr class="inherited" id="afterDelete">
+  <td><a href="CActiveRecordBehavior.html#afterDelete-detail">afterDelete()</a></td>
+  <td>Responds to <a href="CActiveRecord.html#onAfterDelete">CActiveRecord::onAfterDelete</a> event.</td>
+  <td><a href="CActiveRecordBehavior.html">CActiveRecordBehavior</a></td>
+</tr>
+<tr class="inherited" id="afterSave">
+  <td><a href="CActiveRecordBehavior.html#afterSave-detail">afterSave()</a></td>
+  <td>Responds to <a href="CActiveRecord.html#onAfterSave">CActiveRecord::onAfterSave</a> event.</td>
+  <td><a href="CActiveRecordBehavior.html">CActiveRecordBehavior</a></td>
+</tr>
+<tr class="inherited" id="afterValidate">
+  <td><a href="CModelBehavior.html#afterValidate-detail">afterValidate()</a></td>
+  <td>Responds to <a href="CModel.html#onAfterValidate">CModel::onAfterValidate</a> event.</td>
+  <td><a href="CModelBehavior.html">CModelBehavior</a></td>
+</tr>
+<tr class="inherited" id="beforeCount">
+  <td><a href="CActiveRecordBehavior.html#beforeCount-detail">beforeCount()</a></td>
+  <td>Responds to <a href="CActiveRecord.html#onBeforeCount">CActiveRecord::onBeforeCount</a> event.</td>
+  <td><a href="CActiveRecordBehavior.html">CActiveRecordBehavior</a></td>
+</tr>
+<tr class="inherited" id="beforeFind">
+  <td><a href="CActiveRecordBehavior.html#beforeFind-detail">beforeFind()</a></td>
+  <td>Responds to <a href="CActiveRecord.html#onBeforeFind">CActiveRecord::onBeforeFind</a> event.</td>
+  <td><a href="CActiveRecordBehavior.html">CActiveRecordBehavior</a></td>
+</tr>
+<tr class="inherited" id="beforeValidate">
+  <td><a href="CModelBehavior.html#beforeValidate-detail">beforeValidate()</a></td>
+  <td>Responds to <a href="CModel.html#onBeforeValidate">CModel::onBeforeValidate</a> event.</td>
+  <td><a href="CModelBehavior.html">CModelBehavior</a></td>
+</tr>
+</table>
+</div>
+<a name="events"></a>
+
+<h2>Property Details</h2>
+<div class="detailHeader" id="hasManyRoots-detail">
+hasManyRoots<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public <b>$hasManyRoots</b>;</div>
+
+<p></p>
+
+
+<div class="detailHeader" id="isDeletedRecord-detail">
+isDeletedRecord<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public boolean <a href="NestedSetBehavior.html#getIsDeletedRecord"><b>getIsDeletedRecord</b></a>()<br/>public void <a href="NestedSetBehavior.html#setIsDeletedRecord"><b>setIsDeletedRecord</b></a>(boolean $value)</div>
+
+<p>Returns if the current node is deleted.</p>
+
+
+<div class="detailHeader" id="leftAttribute-detail">
+leftAttribute<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public <b>$leftAttribute</b>;</div>
+
+<p></p>
+
+
+<div class="detailHeader" id="levelAttribute-detail">
+levelAttribute<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public <b>$levelAttribute</b>;</div>
+
+<p></p>
+
+
+<div class="detailHeader" id="nextSibling-detail">
+nextSibling<span class="detailHeaderTag">
+property
+ <em>read-only</em> </span>
+</div>
+
+<div class="signature">
+public <a href="CActiveRecord.html">CActiveRecord</a> <a href="NestedSetBehavior.html#getNextSibling"><b>getNextSibling</b></a>()</div>
+
+<p>Gets record of next sibling.</p>
+
+
+<div class="detailHeader" id="parent-detail">
+parent<span class="detailHeaderTag">
+property
+ <em>read-only</em> </span>
+</div>
+
+<div class="signature">
+public <a href="CActiveRecord.html">CActiveRecord</a> <a href="NestedSetBehavior.html#getParent"><b>getParent</b></a>()</div>
+
+<p>Gets record of node parent.</p>
+
+
+<div class="detailHeader" id="prevSibling-detail">
+prevSibling<span class="detailHeaderTag">
+property
+ <em>read-only</em> </span>
+</div>
+
+<div class="signature">
+public <a href="CActiveRecord.html">CActiveRecord</a> <a href="NestedSetBehavior.html#getPrevSibling"><b>getPrevSibling</b></a>()</div>
+
+<p>Gets record of previous sibling.</p>
+
+
+<div class="detailHeader" id="rightAttribute-detail">
+rightAttribute<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public <b>$rightAttribute</b>;</div>
+
+<p></p>
+
+
+<div class="detailHeader" id="rootAttribute-detail">
+rootAttribute<span class="detailHeaderTag">
+property
+</span>
+</div>
+
+<div class="signature">
+public <b>$rootAttribute</b>;</div>
+
+<p></p>
+
+
+<h2>Method Details</h2>
+
+<div class="detailHeader" id="__destruct-detail">
+__destruct()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>__destruct</b>()</div>
+</td></tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#1009 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">__destruct</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;unset(</span><span style="color: #0000BB">self</span><span style="color: #007700">::</span><span style="color: #0000BB">$_cached</span><span style="color: #007700">[</span><span style="color: #0000BB">get_class</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">())][</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_id</span><span style="color: #007700">]);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Destructor.</p>
+
+
+<div class="detailHeader" id="afterConstruct-detail">
+afterConstruct()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>afterConstruct</b>(<a href="CEvent.html">CEvent</a> $event)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$event</td>
+  <td class="paramTypeCol"><a href="CEvent.html">CEvent</a></td>
+  <td class="paramDescCol">event parameter.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#525 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">afterConstruct</span><span style="color: #007700">(</span><span style="color: #0000BB">$event</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">self</span><span style="color: #007700">::</span><span style="color: #0000BB">$_cached</span><span style="color: #007700">[</span><span style="color: #0000BB">get_class</span><span style="color: #007700">(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">)][</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_id</span><span style="color: #007700">=</span><span style="color: #0000BB">self</span><span style="color: #007700">::</span><span style="color: #0000BB">$_c</span><span style="color: #007700">++]=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Handle 'afterConstruct' event of the owner.</p>
+
+
+<div class="detailHeader" id="afterFind-detail">
+afterFind()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>afterFind</b>(<a href="CEvent.html">CEvent</a> $event)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$event</td>
+  <td class="paramTypeCol"><a href="CEvent.html">CEvent</a></td>
+  <td class="paramDescCol">event parameter.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#535 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">afterFind</span><span style="color: #007700">(</span><span style="color: #0000BB">$event</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">self</span><span style="color: #007700">::</span><span style="color: #0000BB">$_cached</span><span style="color: #007700">[</span><span style="color: #0000BB">get_class</span><span style="color: #007700">(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">)][</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_id</span><span style="color: #007700">=</span><span style="color: #0000BB">self</span><span style="color: #007700">::</span><span style="color: #0000BB">$_c</span><span style="color: #007700">++]=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Handle 'afterFind' event of the owner.</p>
+
+
+<div class="detailHeader" id="ancestors-detail">
+ancestors()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public <a href="CActiveRecord.html">CActiveRecord</a> <b>ancestors</b>(int $depth=NULL)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$depth</td>
+  <td class="paramTypeCol">int</td>
+  <td class="paramDescCol">the depth.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the owner.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#72 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">ancestors</span><span style="color: #007700">(</span><span style="color: #0000BB">$depth</span><span style="color: #007700">=</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$db</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbConnection</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbCriteria</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$alias</span><span style="color: #007700">=</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getTableAlias</span><span style="color: #007700">());<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">mergeWith</span><span style="color: #007700">(array(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'condition'</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'&lt;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">}.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'&nbsp;AND&nbsp;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'&gt;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">},<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'order'</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">),<br />&nbsp;&nbsp;&nbsp;&nbsp;));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$depth</span><span style="color: #007700">!==</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addCondition</span><span style="color: #007700">(</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">levelAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'&gt;='</span><span style="color: #007700">.(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">levelAttribute</span><span style="color: #007700">}-</span><span style="color: #0000BB">$depth</span><span style="color: #007700">));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">hasManyRoots</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addCondition</span><span style="color: #007700">(</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'='</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">params</span><span style="color: #007700">[</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">++]=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">};<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Named scope. Gets ancestors for node.</p>
+
+
+<div class="detailHeader" id="append-detail">
+append()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>append</b>(<a href="CActiveRecord.html">CActiveRecord</a> $target, boolean $runValidation=true, array $attributes=NULL)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$target</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the target.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$runValidation</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether to perform validation.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$attributes</td>
+  <td class="paramTypeCol">array</td>
+  <td class="paramDescCol">list of attributes.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the appending succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#334 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">append</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">=</span><span style="color: #0000BB">true</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">=</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$target</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">appendTo</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">(),</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Appends target to node as last child.</p>
+
+
+<div class="detailHeader" id="appendTo-detail">
+appendTo()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>appendTo</b>(<a href="CActiveRecord.html">CActiveRecord</a> $target, boolean $runValidation=true, array $attributes=NULL)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$target</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the target.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$runValidation</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether to perform validation.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$attributes</td>
+  <td class="paramTypeCol">array</td>
+  <td class="paramDescCol">list of attributes.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the appending succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#322 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">appendTo</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">=</span><span style="color: #0000BB">true</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">=</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addNode</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$target</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">},</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Appends node to target as last child.</p>
+
+
+<div class="detailHeader" id="beforeDelete-detail">
+beforeDelete()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>beforeDelete</b>(<a href="CEvent.html">CEvent</a> $event)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$event</td>
+  <td class="paramTypeCol"><a href="CEvent.html">CEvent</a></td>
+  <td class="paramDescCol">event parameter.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#557 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">beforeDelete</span><span style="color: #007700">(</span><span style="color: #0000BB">$event</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_ignoreEvent</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw&nbsp;new&nbsp;</span><span style="color: #0000BB">CDbException</span><span style="color: #007700">(</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">t</span><span style="color: #007700">(</span><span style="color: #DD0000">'yiiext'</span><span style="color: #007700">,</span><span style="color: #DD0000">'You&nbsp;should&nbsp;not&nbsp;use&nbsp;CActiveRecord::delete()&nbsp;method&nbsp;when&nbsp;NestedSetBehavior&nbsp;attached.'</span><span style="color: #007700">));<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Handle 'beforeDelete' event of the owner.</p>
+
+
+<div class="detailHeader" id="beforeSave-detail">
+beforeSave()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>beforeSave</b>(<a href="CEvent.html">CEvent</a> $event)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$event</td>
+  <td class="paramTypeCol"><a href="CEvent.html">CEvent</a></td>
+  <td class="paramDescCol">event parameter.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#545 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">beforeSave</span><span style="color: #007700">(</span><span style="color: #0000BB">$event</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_ignoreEvent</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw&nbsp;new&nbsp;</span><span style="color: #0000BB">CDbException</span><span style="color: #007700">(</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">t</span><span style="color: #007700">(</span><span style="color: #DD0000">'yiiext'</span><span style="color: #007700">,</span><span style="color: #DD0000">'You&nbsp;should&nbsp;not&nbsp;use&nbsp;CActiveRecord::save()&nbsp;method&nbsp;when&nbsp;NestedSetBehavior&nbsp;attached.'</span><span style="color: #007700">));<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Handle 'beforeSave' event of the owner.</p>
+
+
+<div class="detailHeader" id="children-detail">
+children()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public <a href="CActiveRecord.html">CActiveRecord</a> <b>children</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the owner.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#62 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">children</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">descendants</span><span style="color: #007700">(</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Named scope. Gets children for node (direct descendants only).</p>
+
+
+<div class="detailHeader" id="delete-detail">
+delete()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>delete</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the deletion is successful.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#216 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">delete</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getIsNewRecord</span><span style="color: #007700">())<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw&nbsp;new&nbsp;</span><span style="color: #0000BB">CDbException</span><span style="color: #007700">(</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">t</span><span style="color: #007700">(</span><span style="color: #DD0000">'yiiext'</span><span style="color: #007700">,</span><span style="color: #DD0000">'The&nbsp;node&nbsp;cannot&nbsp;be&nbsp;deleted&nbsp;because&nbsp;it&nbsp;is&nbsp;new.'</span><span style="color: #007700">));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getIsDeletedRecord</span><span style="color: #007700">())<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw&nbsp;new&nbsp;</span><span style="color: #0000BB">CDbException</span><span style="color: #007700">(</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">t</span><span style="color: #007700">(</span><span style="color: #DD0000">'yiiext'</span><span style="color: #007700">,</span><span style="color: #DD0000">'The&nbsp;node&nbsp;cannot&nbsp;be&nbsp;deleted&nbsp;because&nbsp;it&nbsp;is&nbsp;already&nbsp;deleted.'</span><span style="color: #007700">));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$db</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbConnection</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$extTransFlag</span><span style="color: #007700">=</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getCurrentTransaction</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$extTransFlag</span><span style="color: #007700">===</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$transaction</span><span style="color: #007700">=</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">beginTransaction</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;try<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">isLeaf</span><span style="color: #007700">())<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_ignoreEvent</span><span style="color: #007700">=</span><span style="color: #0000BB">true</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">delete</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_ignoreEvent</span><span style="color: #007700">=</span><span style="color: #0000BB">false</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$condition</span><span style="color: #007700">=</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'&gt;='</span><span style="color: #007700">.</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">}.</span><span style="color: #DD0000">'&nbsp;AND&nbsp;'</span><span style="color: #007700">.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'&lt;='</span><span style="color: #007700">.</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">};<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$params</span><span style="color: #007700">=array();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">hasManyRoots</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$condition</span><span style="color: #007700">.=</span><span style="color: #DD0000">'&nbsp;AND&nbsp;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'='</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$params</span><span style="color: #007700">[</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">++]=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">};<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">deleteAll</span><span style="color: #007700">(</span><span style="color: #0000BB">$condition</span><span style="color: #007700">,</span><span style="color: #0000BB">$params</span><span style="color: #007700">)&gt;</span><span style="color: #0000BB">0</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(!</span><span style="color: #0000BB">$result</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$extTransFlag</span><span style="color: #007700">===</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$transaction</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rollBack</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">shiftLeftRight</span><span style="color: #007700">(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">}+</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">}-</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">}-</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$extTransFlag</span><span style="color: #007700">===</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$transaction</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">commit</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">correctCachedOnDelete</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;catch(</span><span style="color: #0000BB">Exception&nbsp;$e</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$extTransFlag</span><span style="color: #007700">===</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$transaction</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rollBack</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw&nbsp;</span><span style="color: #0000BB">$e</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Deletes node and it's descendants.</p>
+
+
+<div class="detailHeader" id="deleteNode-detail">
+deleteNode()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>deleteNode</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the deletion is successful.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#286 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">deleteNode</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">delete</span><span style="color: #007700">();<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Deletes node and it's descendants.</p>
+
+
+<div class="detailHeader" id="descendants-detail">
+descendants()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public <a href="CActiveRecord.html">CActiveRecord</a> <b>descendants</b>(int $depth=NULL)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$depth</td>
+  <td class="paramTypeCol">int</td>
+  <td class="paramDescCol">the depth.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the owner.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#33 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">descendants</span><span style="color: #007700">(</span><span style="color: #0000BB">$depth</span><span style="color: #007700">=</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$db</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbConnection</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbCriteria</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$alias</span><span style="color: #007700">=</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getTableAlias</span><span style="color: #007700">());<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">mergeWith</span><span style="color: #007700">(array(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'condition'</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'&gt;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">}.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'&nbsp;AND&nbsp;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'&lt;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">},<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'order'</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">),<br />&nbsp;&nbsp;&nbsp;&nbsp;));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$depth</span><span style="color: #007700">!==</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addCondition</span><span style="color: #007700">(</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">levelAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'&lt;='</span><span style="color: #007700">.(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">levelAttribute</span><span style="color: #007700">}+</span><span style="color: #0000BB">$depth</span><span style="color: #007700">));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">hasManyRoots</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addCondition</span><span style="color: #007700">(</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'='</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">params</span><span style="color: #007700">[</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">++]=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">};<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Named scope. Gets descendants for node.</p>
+
+
+<div class="detailHeader" id="getIsDeletedRecord-detail">
+getIsDeletedRecord()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>getIsDeletedRecord</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the node is deleted.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#507 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">getIsDeletedRecord</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_deleted</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Returns if the current node is deleted.</p>
+
+
+<div class="detailHeader" id="getNextSibling-detail">
+getNextSibling()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public <a href="CActiveRecord.html">CActiveRecord</a> <b>getNextSibling</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the record found. Null if no record is found.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#161 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">getNextSibling</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$db</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbConnection</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbCriteria</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$alias</span><span style="color: #007700">=</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getTableAlias</span><span style="color: #007700">());<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addCondition</span><span style="color: #007700">(</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'='</span><span style="color: #007700">.(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">}+</span><span style="color: #0000BB">1</span><span style="color: #007700">));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">hasManyRoots</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addCondition</span><span style="color: #007700">(</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'='</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">params</span><span style="color: #007700">[</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">++]=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">};<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">find</span><span style="color: #007700">();<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Gets record of next sibling.</p>
+
+
+<div class="detailHeader" id="getParent-detail">
+getParent()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public <a href="CActiveRecord.html">CActiveRecord</a> <b>getParent</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the record found. Null if no record is found.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#114 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">getParent</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$db</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbConnection</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbCriteria</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$alias</span><span style="color: #007700">=</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getTableAlias</span><span style="color: #007700">());<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">mergeWith</span><span style="color: #007700">(array(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'condition'</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'&lt;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">}.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'&nbsp;AND&nbsp;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'&gt;'</span><span style="color: #007700">.</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">},<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #DD0000">'order'</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">),<br />&nbsp;&nbsp;&nbsp;&nbsp;));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">hasManyRoots</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addCondition</span><span style="color: #007700">(</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'='</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">params</span><span style="color: #007700">[</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">++]=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">};<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">find</span><span style="color: #007700">();<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Gets record of node parent.</p>
+
+
+<div class="detailHeader" id="getPrevSibling-detail">
+getPrevSibling()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public <a href="CActiveRecord.html">CActiveRecord</a> <b>getPrevSibling</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the record found. Null if no record is found.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#140 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">getPrevSibling</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$db</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbConnection</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbCriteria</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$alias</span><span style="color: #007700">=</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getTableAlias</span><span style="color: #007700">());<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addCondition</span><span style="color: #007700">(</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'='</span><span style="color: #007700">.(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">}-</span><span style="color: #0000BB">1</span><span style="color: #007700">));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">hasManyRoots</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addCondition</span><span style="color: #007700">(</span><span style="color: #0000BB">$alias</span><span style="color: #007700">.</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'='</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$criteria</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">params</span><span style="color: #007700">[</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">++]=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">};<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">find</span><span style="color: #007700">();<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Gets record of previous sibling.</p>
+
+
+<div class="detailHeader" id="insertAfter-detail">
+insertAfter()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>insertAfter</b>(<a href="CActiveRecord.html">CActiveRecord</a> $target, boolean $runValidation=true, array $attributes=NULL)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$target</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the target.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$runValidation</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether to perform validation.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$attributes</td>
+  <td class="paramTypeCol">array</td>
+  <td class="paramDescCol">list of attributes.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the inserting succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#358 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">insertAfter</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">=</span><span style="color: #0000BB">true</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">=</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addNode</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$target</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">}+</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">0</span><span style="color: #007700">,</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Inserts node as next sibling of target.</p>
+
+
+<div class="detailHeader" id="insertBefore-detail">
+insertBefore()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>insertBefore</b>(<a href="CActiveRecord.html">CActiveRecord</a> $target, boolean $runValidation=true, array $attributes=NULL)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$target</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the target.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$runValidation</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether to perform validation.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$attributes</td>
+  <td class="paramTypeCol">array</td>
+  <td class="paramDescCol">list of attributes.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the inserting succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#346 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">insertBefore</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">=</span><span style="color: #0000BB">true</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">=</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addNode</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$target</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">},</span><span style="color: #0000BB">0</span><span style="color: #007700">,</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Inserts node as previous sibling of target.</p>
+
+
+<div class="detailHeader" id="isDescendantOf-detail">
+isDescendantOf()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>isDescendantOf</b>(<a href="CActiveRecord.html">CActiveRecord</a> $subj)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$subj</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the subject node.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the node is descendant of subject node.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#471 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">isDescendantOf</span><span style="color: #007700">(</span><span style="color: #0000BB">$subj</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">=(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">}&gt;</span><span style="color: #0000BB">$subj</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">})<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;&amp;&nbsp;(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">}&lt;</span><span style="color: #0000BB">$subj</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">});<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">hasManyRoots</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">=</span><span style="color: #0000BB">$result&nbsp;</span><span style="color: #007700">&amp;&amp;&nbsp;(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">}===</span><span style="color: #0000BB">$subj</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">});<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Determines if node is descendant of subject node.</p>
+
+
+<div class="detailHeader" id="isLeaf-detail">
+isLeaf()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>isLeaf</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the node is leaf.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#487 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">isLeaf</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">}-</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">}===</span><span style="color: #0000BB">1</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Determines if node is leaf.</p>
+
+
+<div class="detailHeader" id="isRoot-detail">
+isRoot()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>isRoot</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the node is root.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#498 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">isRoot</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">()-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">}==</span><span style="color: #0000BB">1</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Determines if node is root.</p>
+
+
+<div class="detailHeader" id="moveAfter-detail">
+moveAfter()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>moveAfter</b>(<a href="CActiveRecord.html">CActiveRecord</a> $target)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$target</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the target.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the moving succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#378 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">moveAfter</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">moveNode</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$target</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">}+</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">0</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Move node as next sibling of target.</p>
+
+
+<div class="detailHeader" id="moveAsFirst-detail">
+moveAsFirst()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>moveAsFirst</b>(<a href="CActiveRecord.html">CActiveRecord</a> $target)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$target</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the target.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the moving succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#388 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">moveAsFirst</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">moveNode</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$target</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">}+</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Move node as first child of target.</p>
+
+
+<div class="detailHeader" id="moveAsLast-detail">
+moveAsLast()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>moveAsLast</b>(<a href="CActiveRecord.html">CActiveRecord</a> $target)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$target</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the target.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the moving succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#398 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">moveAsLast</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">moveNode</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$target</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">},</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Move node as last child of target.</p>
+
+
+<div class="detailHeader" id="moveAsRoot-detail">
+moveAsRoot()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>moveAsRoot</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the moving succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#407 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">moveAsRoot</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(!</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">hasManyRoots</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw&nbsp;new&nbsp;</span><span style="color: #0000BB">CException</span><span style="color: #007700">(</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">t</span><span style="color: #007700">(</span><span style="color: #DD0000">'yiiext'</span><span style="color: #007700">,</span><span style="color: #DD0000">'Many&nbsp;roots&nbsp;mode&nbsp;is&nbsp;off.'</span><span style="color: #007700">));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getIsNewRecord</span><span style="color: #007700">())<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw&nbsp;new&nbsp;</span><span style="color: #0000BB">CException</span><span style="color: #007700">(</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">t</span><span style="color: #007700">(</span><span style="color: #DD0000">'yiiext'</span><span style="color: #007700">,</span><span style="color: #DD0000">'The&nbsp;node&nbsp;should&nbsp;not&nbsp;be&nbsp;new&nbsp;record.'</span><span style="color: #007700">));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getIsDeletedRecord</span><span style="color: #007700">())<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw&nbsp;new&nbsp;</span><span style="color: #0000BB">CDbException</span><span style="color: #007700">(</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">t</span><span style="color: #007700">(</span><span style="color: #DD0000">'yiiext'</span><span style="color: #007700">,</span><span style="color: #DD0000">'The&nbsp;node&nbsp;should&nbsp;not&nbsp;be&nbsp;deleted.'</span><span style="color: #007700">));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">isRoot</span><span style="color: #007700">())<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw&nbsp;new&nbsp;</span><span style="color: #0000BB">CException</span><span style="color: #007700">(</span><span style="color: #0000BB">Yii</span><span style="color: #007700">::</span><span style="color: #0000BB">t</span><span style="color: #007700">(</span><span style="color: #DD0000">'yiiext'</span><span style="color: #007700">,</span><span style="color: #DD0000">'The&nbsp;node&nbsp;already&nbsp;is&nbsp;root&nbsp;node.'</span><span style="color: #007700">));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$db</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbConnection</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$extTransFlag</span><span style="color: #007700">=</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getCurrentTransaction</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$extTransFlag</span><span style="color: #007700">===</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$transaction</span><span style="color: #007700">=</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">beginTransaction</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;try<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$left</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">};<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$right</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">};<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$levelDelta</span><span style="color: #007700">=</span><span style="color: #0000BB">1</span><span style="color: #007700">-</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">levelAttribute</span><span style="color: #007700">};<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$delta</span><span style="color: #007700">=</span><span style="color: #0000BB">1</span><span style="color: #007700">-</span><span style="color: #0000BB">$left</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">updateAll</span><span style="color: #007700">(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array(<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">=&gt;new&nbsp;</span><span style="color: #0000BB">CDbExpression</span><span style="color: #007700">(</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">).</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">'%+d'</span><span style="color: #007700">,</span><span style="color: #0000BB">$delta</span><span style="color: #007700">)),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">=&gt;new&nbsp;</span><span style="color: #0000BB">CDbExpression</span><span style="color: #007700">(</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">).</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">'%+d'</span><span style="color: #007700">,</span><span style="color: #0000BB">$delta</span><span style="color: #007700">)),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">levelAttribute</span><span style="color: #007700">=&gt;new&nbsp;</span><span style="color: #0000BB">CDbExpression</span><span style="color: #007700">(</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">levelAttribute</span><span style="color: #007700">).</span><span style="color: #0000BB">sprintf</span><span style="color: #007700">(</span><span style="color: #DD0000">'%+d'</span><span style="color: #007700">,</span><span style="color: #0000BB">$levelDelta</span><span style="color: #007700">)),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">=&gt;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getPrimaryKey</span><span style="color: #007700">(),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;),<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'&gt;='</span><span style="color: #007700">.</span><span style="color: #0000BB">$left</span><span style="color: #007700">.</span><span style="color: #DD0000">'&nbsp;AND&nbsp;'</span><span style="color: #007700">.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rightAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'&lt;='</span><span style="color: #007700">.</span><span style="color: #0000BB">$right</span><span style="color: #007700">.</span><span style="color: #DD0000">'&nbsp;AND&nbsp;'</span><span style="color: #007700">.<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'='</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">,<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;array(</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">PARAM_PREFIX</span><span style="color: #007700">.</span><span style="color: #0000BB">CDbCriteria</span><span style="color: #007700">::</span><span style="color: #0000BB">$paramCount</span><span style="color: #007700">++=&gt;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rootAttribute</span><span style="color: #007700">}));<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">shiftLeftRight</span><span style="color: #007700">(</span><span style="color: #0000BB">$right</span><span style="color: #007700">+</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">$left</span><span style="color: #007700">-</span><span style="color: #0000BB">$right</span><span style="color: #007700">-</span><span style="color: #0000BB">1</span><span style="color: #007700">);<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$extTransFlag</span><span style="color: #007700">===</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$transaction</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">commit</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">correctCachedOnMoveBetweenTrees</span><span style="color: #007700">(</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">$levelDelta</span><span style="color: #007700">,</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getPrimaryKey</span><span style="color: #007700">());<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br />&nbsp;&nbsp;&nbsp;&nbsp;catch(</span><span style="color: #0000BB">Exception&nbsp;$e</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;{<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$extTransFlag</span><span style="color: #007700">===</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$transaction</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">rollBack</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;throw&nbsp;</span><span style="color: #0000BB">$e</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;}<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">true</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Move node as new root.</p>
+
+
+<div class="detailHeader" id="moveBefore-detail">
+moveBefore()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>moveBefore</b>(<a href="CActiveRecord.html">CActiveRecord</a> $target)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$target</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the target.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the moving succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#368 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">moveBefore</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">moveNode</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$target</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">},</span><span style="color: #0000BB">0</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Move node as previous sibling of target.</p>
+
+
+<div class="detailHeader" id="prepend-detail">
+prepend()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>prepend</b>(<a href="CActiveRecord.html">CActiveRecord</a> $target, boolean $runValidation=true, array $attributes=NULL)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$target</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the target.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$runValidation</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether to perform validation.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$attributes</td>
+  <td class="paramTypeCol">array</td>
+  <td class="paramDescCol">list of attributes.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the prepending succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#310 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">prepend</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">=</span><span style="color: #0000BB">true</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">=</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$target</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">prependTo</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">(),</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Prepends target to node as first child.</p>
+
+
+<div class="detailHeader" id="prependTo-detail">
+prependTo()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>prependTo</b>(<a href="CActiveRecord.html">CActiveRecord</a> $target, boolean $runValidation=true, array $attributes=NULL)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$target</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the target.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$runValidation</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether to perform validation.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$attributes</td>
+  <td class="paramTypeCol">array</td>
+  <td class="paramDescCol">list of attributes.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the prepending succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#298 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">prependTo</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">=</span><span style="color: #0000BB">true</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">=</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">addNode</span><span style="color: #007700">(</span><span style="color: #0000BB">$target</span><span style="color: #007700">,</span><span style="color: #0000BB">$target</span><span style="color: #007700">-&gt;{</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">}+</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">1</span><span style="color: #007700">,</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Prepends node to target as first child.</p>
+
+
+<div class="detailHeader" id="roots-detail">
+roots()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public <a href="CActiveRecord.html">CActiveRecord</a> <b>roots</b>()</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol"><a href="CActiveRecord.html">CActiveRecord</a></td>
+  <td class="paramDescCol">the owner.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#101 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">roots</span><span style="color: #007700">()<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$db</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbConnection</span><span style="color: #007700">();<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getDbCriteria</span><span style="color: #007700">()-&gt;</span><span style="color: #0000BB">addCondition</span><span style="color: #007700">(</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getTableAlias</span><span style="color: #007700">()).</span><span style="color: #DD0000">'.'</span><span style="color: #007700">.</span><span style="color: #0000BB">$db</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">quoteColumnName</span><span style="color: #007700">(</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">leftAttribute</span><span style="color: #007700">).</span><span style="color: #DD0000">'=1'</span><span style="color: #007700">);<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Named scope. Gets root node(s).</p>
+
+
+<div class="detailHeader" id="save-detail">
+save()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>save</b>(boolean $runValidation=true, boolean $attributes=NULL)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$runValidation</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether to perform validation.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$attributes</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">list of attributes.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the saving succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#184 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">save</span><span style="color: #007700">(</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">=</span><span style="color: #0000BB">true</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">=</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$owner</span><span style="color: #007700">=</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getOwner</span><span style="color: #007700">();<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$runValidation&nbsp;</span><span style="color: #007700">&amp;&amp;&nbsp;!</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">validate</span><span style="color: #007700">(</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">))<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">false</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;if(</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">getIsNewRecord</span><span style="color: #007700">())<br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">makeRoot</span><span style="color: #007700">(</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">);<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_ignoreEvent</span><span style="color: #007700">=</span><span style="color: #0000BB">true</span><span style="color: #007700">;<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">=</span><span style="color: #0000BB">$owner</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">update</span><span style="color: #007700">(</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">);<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_ignoreEvent</span><span style="color: #007700">=</span><span style="color: #0000BB">false</span><span style="color: #007700">;<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$result</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Create root node if multiple-root tree mode. Update node if it's not new.</p>
+
+
+<div class="detailHeader" id="saveNode-detail">
+saveNode()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public boolean <b>saveNode</b>(boolean $runValidation=true, boolean $attributes=NULL)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$runValidation</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether to perform validation.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">$attributes</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">list of attributes.</td>
+</tr>
+<tr>
+  <td class="paramNameCol">{return}</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the saving succeeds.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#207 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">saveNode</span><span style="color: #007700">(</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">=</span><span style="color: #0000BB">true</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">=</span><span style="color: #0000BB">null</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">save</span><span style="color: #007700">(</span><span style="color: #0000BB">$runValidation</span><span style="color: #007700">,</span><span style="color: #0000BB">$attributes</span><span style="color: #007700">);<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Create root node if multiple-root tree mode. Update node if it's not new.</p>
+
+
+<div class="detailHeader" id="setIsDeletedRecord-detail">
+setIsDeletedRecord()
+<span class="detailHeaderTag">
+method
+</span>
+</div>
+
+<table class="summaryTable">
+<tr><td colspan="3">
+<div class="signature2">
+public void <b>setIsDeletedRecord</b>(boolean $value)</div>
+</td></tr>
+<tr>
+  <td class="paramNameCol">$value</td>
+  <td class="paramTypeCol">boolean</td>
+  <td class="paramDescCol">whether the node is deleted.</td>
+</tr>
+</table>
+
+<div class="sourceCode">
+<b>Source Code:</b> app/behaviors/NestedSetBehavior.php#516 (<b><a href="#" class="show">show</a></b>)
+<div class="code"><code><span style="color: #000000">
+<span style="color: #0000BB"></span><span style="color: #007700">public&nbsp;function&nbsp;</span><span style="color: #0000BB">setIsDeletedRecord</span><span style="color: #007700">(</span><span style="color: #0000BB">$value</span><span style="color: #007700">)<br />{<br />&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #0000BB">$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_deleted</span><span style="color: #007700">=</span><span style="color: #0000BB">$value</span><span style="color: #007700">;<br />}</span>
+</span>
+</code></div>
+</div>
+<p>Sets if the current node is deleted.</p>
+
+
+</div><!-- end of content -->
+
+<div id="apiFooter">
+Copyright &copy; 2008-2011 by <a href="http://www.yiisoft.com">Yii Software LLC</a><br/>
+All Rights Reserved.<br/>
+</div><!-- end of footer -->
+
+<script type="text/javascript">
+/*<![CDATA[*/
+$("a.toggle").toggle(function(){
+	$(this).text($(this).text().replace(/Hide/,'Show'));
+	$(this).parents(".summary").find(".inherited").hide();
+},function(){
+	$(this).text($(this).text().replace(/Show/,'Hide'));
+	$(this).parents(".summary").find(".inherited").show();
+});
+$(".sourceCode a.show").toggle(function(){
+	$(this).text($(this).text().replace(/show/,'hide'));
+	$(this).parents(".sourceCode").find("div.code").show();
+},function(){
+	$(this).text($(this).text().replace(/hide/,'show'));
+	$(this).parents(".sourceCode").find("div.code").hide();
+});
+$("a.sourceLink").click(function(){
+	$(this).attr('target','_blank');
+});
+/*]]>*/
+</script>
+
+</div><!-- end of page -->
+</body>
+</html>
