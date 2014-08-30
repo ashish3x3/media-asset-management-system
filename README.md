@@ -64,7 +64,7 @@ view all the revisions of the assets and can also online view them. They
 have an option for downloading the assets if they want to check out the
 asset on their system.
 
-1. Check In Module
+2. Check In Module
 
 If the user has checked out any asset, then he will have the option for
 check in for those documents and update that asset. He will have an
@@ -92,7 +92,7 @@ functionality.
 * Brightness
 * Quality
 * Sharpen
-* 
+
 1. Search
 
 The search engine shows the results on the basis of content of various
